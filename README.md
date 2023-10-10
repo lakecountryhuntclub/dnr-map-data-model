@@ -1,6 +1,8 @@
 # Lake Country Hunt Club Pheasant Stocking Properties Data Model
 
-> [!NOTE] This is a work in progress. The data model is not yet complete.
+> **Note:** This is a work in progress. The data model is not yet complete.
+
+See the [Changelog](CHANGELOG.md) for changes made over time.
 
 ## Overview
 
