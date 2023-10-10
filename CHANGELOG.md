@@ -12,6 +12,7 @@
 
 ### Documentation
 
+- Add folder READMEs
 - Add sitemap and gitignore rest of site
 - Update README.md
 - Add mkdocs and new documentation
@@ -21,14 +22,24 @@
 
 ### Features
 
+- Add initial VBA
+- Add PowerShell export
+- Add PowerQueries
+- Add Excel data models
 - Add pwsh source code
 - Add powerquery source code
 - Add new cleansed excel data model workbook
 - Add powershell script to get dnr data
 - Add initial (WIP) Excel data model
 
+### Refactoring
+
+- Refactor structure
+
 ### Setup
 
+- Initial config file
+- Add gitattributes and editorconfig
 - Add git-cliff config and github action for CHANGELOG
 - Add initial gitignore
 
