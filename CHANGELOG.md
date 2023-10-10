@@ -6,6 +6,10 @@
 
 ## [Unreleased]
 
+### Configuration
+
+- Git config core.ignorecase set to false
+
 ### Data
 
 - Add original source datasets
