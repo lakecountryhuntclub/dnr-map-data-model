@@ -12,6 +12,7 @@
 
 ### Documentation
 
+- Add sitemap and gitignore rest of site
 - Update README.md
 - Add mkdocs and new documentation
 - Update README
