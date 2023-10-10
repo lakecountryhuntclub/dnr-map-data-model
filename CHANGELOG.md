@@ -12,10 +12,13 @@
 
 ### Documentation
 
+- Update README
+- Add documentation, mkdocs config, and cinder theme
 - Add README
 
 ### Features
 
+- Add new cleansed excel data model workbook
 - Add powershell script to get dnr data
 - Add initial (WIP) Excel data model
 
