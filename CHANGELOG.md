@@ -12,6 +12,7 @@
 
 ### Documentation
 
+- Update README.md
 - Add mkdocs and new documentation
 - Update README
 - Add documentation, mkdocs config, and cinder theme
