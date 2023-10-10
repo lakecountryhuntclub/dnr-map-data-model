@@ -6,12 +6,17 @@
 
 ## [Unreleased]
 
+### Data
+
+- Add original source datasets
+
 ### Documentation
 
 - Add README
 
 ### Features
 
+- Add powershell script to get dnr data
 - Add initial (WIP) Excel data model
 
 ### Setup
