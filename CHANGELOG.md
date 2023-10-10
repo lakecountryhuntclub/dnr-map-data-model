@@ -10,6 +10,10 @@
 
 - Add README
 
+### Features
+
+- Add initial (WIP) Excel data model
+
 ### Setup
 
 - Add git-cliff config and github action for CHANGELOG
