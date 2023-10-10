@@ -1,0 +1,32 @@
+site_name: "Lake Country Hunt Club Initial Pheasant Stocking Data Model"
+site_author: Jimmy Briggs
+site_description: "Documentation for the Lake Country Hunt Club Initial Pheasant Stocking Data Model"
+
+theme:
+  name: null
+  custom_dir: theme/cinder
+  colorscheme: github
+  highlightjs: true
+
+nav:
+  - Home: index.md
+  - Data:
+    - "data/index.md"
+    - "Data Sources":
+        - FFLIGHT: "data/fflight.md"
+        - "DNR Property Data": "data/dnr-properties.md"
+    - "Data Model":
+        - "Data Conformance": "data/conformance.md"
+        - "Data Glossary": "data/glossary.md"
+        - "Data Notes": "data/notes.md"
+  - Model:
+      - "model/index.md"
+      - "Excel": "model/excel.md"
+      - "PowerQuery": "model/powerquery.md"
+  - Technical:
+      - "technical/index.md"
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true

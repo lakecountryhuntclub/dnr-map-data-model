@@ -1,0 +1,1086 @@
+<table>
+	<tr>
+		<td><tr id="trSearchHeader" style="background-color:#C0C0C0; font-weight:bold; font-size:x-small; border-top-left-radius: 10px;">
+			<td style="text-align:left; background-color:#5a7f93; height:30px; color:#f5f5f5; font-size:10px; font-weight:bold; width:5%; border-top-left-radius: 10px;">Year</td>
+			<td style="text-align:left; background-color:#5a7f93; height:30px; color:#f5f5f5; font-size:10px; font-weight:bold; width:5%; ">County</td>
+			<td style="text-align:left; background-color:#5a7f93; height:30px; color:#f5f5f5; font-size:10px; font-weight:bold; width:20%;">Property Name</td>
+			<td style="text-align:left; background-color:#5a7f93; height:30px; color:#f5f5f5; font-size:10px; font-weight:bold; width:10%;">Stocked by DNR</td>
+			<td style="text-align:left; background-color:#5a7f93; height:30px; color:#f5f5f5; font-size:10px; font-weight:bold; width:5%;">Stocked by DOC</td>
+			<td style="text-align:left; background-color:#5a7f93; height:30px; color:#f5f5f5; font-size:10px; font-weight:bold; width:5%;">12PM Closure Area</td>
+			<td style="text-align:left; background-color:#5a7f93; height:30px; color:#f5f5f5; font-size:10px; font-weight:bold; width:10%;">Hen / Rooster Area</td>
+			<td style="text-align:left; background-color:#5a7f93; height:30px; color:#f5f5f5; font-size:10px; font-weight:bold; width:5%;">Acres for Hunting</td>
+			<td style="text-align:left; background-color:#5a7f93; height:30px; color:#f5f5f5; font-size:10px; font-weight:bold; width:5%; border-top-right-radius: 10px;">Stocking Levels</td>
+		</tr>
+		</td>
+	</tr><tr>
+		<td>
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_0" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_0" style="font-size:X-Small;">Monroe</span></td>
+                                                    <td><span id="rptSearchResult_Label1_0" style="font-size:X-Small;">Tri-Creek Watershed</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_0" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_0" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_0" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_0" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_0" style="font-size:X-Small;">750</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_0" style="font-size:X-Small;">300</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_1" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_1" style="font-size:X-Small;">Dodge</span></td>
+                                                    <td><span id="rptSearchResult_Label1_1" style="font-size:X-Small;">Theresa Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_1" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_1" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_1" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_1" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_1" style="font-size:X-Small;">2500</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_1" style="font-size:X-Small;">1600</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_2" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_2" style="font-size:X-Small;">Rock</span></td>
+                                                    <td><span id="rptSearchResult_Label1_2" style="font-size:X-Small;">Footville Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_2" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_2" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_2" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_2" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_2" style="font-size:X-Small;">4741</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_2" style="font-size:X-Small;">2000</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_3" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_3" style="font-size:X-Small;">Sauk</span></td>
+                                                    <td><span id="rptSearchResult_Label1_3" style="font-size:X-Small;">Sauk Prairie Recreation Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_3" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_3" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_3" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_3" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_3" style="font-size:X-Small;">1000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_3" style="font-size:X-Small;">640</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_4" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_4" style="font-size:X-Small;">Waukesha</span></td>
+                                                    <td><span id="rptSearchResult_Label1_4" style="font-size:X-Small;">Kettle Moraine State Forest-Southern Unit</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_4" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_4" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_4" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_4" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_4" style="font-size:X-Small;">5000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_4" style="font-size:X-Small;">3340</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_5" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_5" style="font-size:X-Small;">Columbia</span></td>
+                                                    <td><span id="rptSearchResult_Label1_5" style="font-size:X-Small;">Pine Island Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_5" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_5" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_5" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_5" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_5" style="font-size:X-Small;">2000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_5" style="font-size:X-Small;">1600</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_6" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_6" style="font-size:X-Small;">Waukesha</span></td>
+                                                    <td><span id="rptSearchResult_Label1_6" style="font-size:X-Small;">Vernon Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_6" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_6" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_6" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_6" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_6" style="font-size:X-Small;">1500</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_6" style="font-size:X-Small;">920</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_7" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_7" style="font-size:X-Small;">Monroe</span></td>
+                                                    <td><span id="rptSearchResult_Label1_7" style="font-size:X-Small;">Sand Creek Fishery Area-Monroe Co.</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_7" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_7" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_7" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_7" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_7" style="font-size:X-Small;">450</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_7" style="font-size:X-Small;">220</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_8" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_8" style="font-size:X-Small;">Fond Du Lac</span></td>
+                                                    <td><span id="rptSearchResult_Label1_8" style="font-size:X-Small;">Mullet Creek Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_8" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_8" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_8" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_8" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_8" style="font-size:X-Small;">650</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_8" style="font-size:X-Small;">500</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_9" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_9" style="font-size:X-Small;">Jefferson</span></td>
+                                                    <td><span id="rptSearchResult_Label1_9" style="font-size:X-Small;">Princes Point Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_9" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_9" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_9" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_9" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_9" style="font-size:X-Small;">1550</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_9" style="font-size:X-Small;">500</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_10" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_10" style="font-size:X-Small;">Dunn</span></td>
+                                                    <td><span id="rptSearchResult_Label1_10" style="font-size:X-Small;">Dunnville Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_10" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_10" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_10" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_10" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_10" style="font-size:X-Small;">1500</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_10" style="font-size:X-Small;">800</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_11" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_11" style="font-size:X-Small;">Dodge</span></td>
+                                                    <td><span id="rptSearchResult_Label1_11" style="font-size:X-Small;">Shaw Marsh Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_11" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_11" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_11" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_11" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_11" style="font-size:X-Small;">350</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_11" style="font-size:X-Small;">240</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_12" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_12" style="font-size:X-Small;">Jefferson</span></td>
+                                                    <td><span id="rptSearchResult_Label1_12" style="font-size:X-Small;">Rome Pond Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_12" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_12" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_12" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_12" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_12" style="font-size:X-Small;">1000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_12" style="font-size:X-Small;">440</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_13" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_13" style="font-size:X-Small;">Trempealeau</span></td>
+                                                    <td><span id="rptSearchResult_Label1_13" style="font-size:X-Small;">Lakes Coulee Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_13" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_13" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_13" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_13" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_13" style="font-size:X-Small;"></span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_13" style="font-size:X-Small;">200</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_14" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_14" style="font-size:X-Small;">Green</span></td>
+                                                    <td><span id="rptSearchResult_Label1_14" style="font-size:X-Small;">Cadiz Springs State Recreation Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_14" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_14" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_14" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_14" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_14" style="font-size:X-Small;">0</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_14" style="font-size:X-Small;">0</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_15" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_15" style="font-size:X-Small;">Chippewa</span></td>
+                                                    <td><span id="rptSearchResult_Label1_15" style="font-size:X-Small;">Tom Lawin Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_15" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_15" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_15" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_15" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_15" style="font-size:X-Small;">1500</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_15" style="font-size:X-Small;">1180</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_16" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_16" style="font-size:X-Small;">Dane</span></td>
+                                                    <td><span id="rptSearchResult_Label1_16" style="font-size:X-Small;">Mazomanie Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_16" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_16" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_16" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_16" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_16" style="font-size:X-Small;">3600</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_16" style="font-size:X-Small;">1860</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_17" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_17" style="font-size:X-Small;">Walworth</span></td>
+                                                    <td><span id="rptSearchResult_Label1_17" style="font-size:X-Small;">Troy Wildlife Area - Lauderdale Hwy A</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_17" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_17" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_17" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_17" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_17" style="font-size:X-Small;">200</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_17" style="font-size:X-Small;">120</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_18" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_18" style="font-size:X-Small;">Dane</span></td>
+                                                    <td><span id="rptSearchResult_Label1_18" style="font-size:X-Small;">Brooklyn Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_18" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_18" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_18" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_18" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_18" style="font-size:X-Small;">3500</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_18" style="font-size:X-Small;">2380</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_19" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_19" style="font-size:X-Small;">Columbia</span></td>
+                                                    <td><span id="rptSearchResult_Label1_19" style="font-size:X-Small;">French Creek Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_19" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_19" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_19" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_19" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_19" style="font-size:X-Small;">1600</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_19" style="font-size:X-Small;">740</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_20" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_20" style="font-size:X-Small;">Dodge</span></td>
+                                                    <td><span id="rptSearchResult_Label1_20" style="font-size:X-Small;">Statewide Wildlife Habitat - Dodge</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_20" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_20" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_20" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_20" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_20" style="font-size:X-Small;">230</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_20" style="font-size:X-Small;">100</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_21" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_21" style="font-size:X-Small;">Kewaunee</span></td>
+                                                    <td><span id="rptSearchResult_Label1_21" style="font-size:X-Small;">Brusky Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_21" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_21" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_21" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_21" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_21" style="font-size:X-Small;">70</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_21" style="font-size:X-Small;">60</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_22" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_22" style="font-size:X-Small;">Kewaunee</span></td>
+                                                    <td><span id="rptSearchResult_Label1_22" style="font-size:X-Small;">C.D. (Buzz) Besadny Fish And Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_22" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_22" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_22" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_22" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_22" style="font-size:X-Small;">750</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_22" style="font-size:X-Small;">420</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_23" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_23" style="font-size:X-Small;">Oconto</span></td>
+                                                    <td><span id="rptSearchResult_Label1_23" style="font-size:X-Small;">Wisconsin Waterfowl Association</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_23" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_23" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_23" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_23" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_23" style="font-size:X-Small;">152</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_23" style="font-size:X-Small;"></span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_24" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_24" style="font-size:X-Small;">Door</span></td>
+                                                    <td><span id="rptSearchResult_Label1_24" style="font-size:X-Small;">Gardner Swamp Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_24" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_24" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_24" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_24" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_24" style="font-size:X-Small;">200</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_24" style="font-size:X-Small;">40</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_25" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_25" style="font-size:X-Small;">Calumet</span></td>
+                                                    <td><span id="rptSearchResult_Label1_25" style="font-size:X-Small;">Brillion Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_25" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_25" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_25" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_25" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_25" style="font-size:X-Small;">1300</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_25" style="font-size:X-Small;">400</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_26" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_26" style="font-size:X-Small;">Green</span></td>
+                                                    <td><span id="rptSearchResult_Label1_26" style="font-size:X-Small;">Liberty Creek Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_26" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_26" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_26" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_26" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_26" style="font-size:X-Small;">0</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_26" style="font-size:X-Small;">0</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_27" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_27" style="font-size:X-Small;">Dane</span></td>
+                                                    <td><span id="rptSearchResult_Label1_27" style="font-size:X-Small;">Lodi Marsh Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_27" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_27" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_27" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_27" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_27" style="font-size:X-Small;">1140</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_27" style="font-size:X-Small;">600</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_28" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_28" style="font-size:X-Small;">Jackson</span></td>
+                                                    <td><span id="rptSearchResult_Label1_28" style="font-size:X-Small;">South Beaver Creek Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_28" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_28" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_28" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_28" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_28" style="font-size:X-Small;">500</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_28" style="font-size:X-Small;">200</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_29" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_29" style="font-size:X-Small;">Washington</span></td>
+                                                    <td><span id="rptSearchResult_Label1_29" style="font-size:X-Small;">Allenton Marsh Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_29" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_29" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_29" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_29" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_29" style="font-size:X-Small;">900</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_29" style="font-size:X-Small;">800</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_30" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_30" style="font-size:X-Small;">Grant</span></td>
+                                                    <td><span id="rptSearchResult_Label1_30" style="font-size:X-Small;">Boscobel Unit</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_30" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_30" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_30" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_30" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_30" style="font-size:X-Small;">1600</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_30" style="font-size:X-Small;">880</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_31" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_31" style="font-size:X-Small;">Shawano</span></td>
+                                                    <td><span id="rptSearchResult_Label1_31" style="font-size:X-Small;">Beilfuss Unit</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_31" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_31" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_31" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_31" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_31" style="font-size:X-Small;">120</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_31" style="font-size:X-Small;">20</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_32" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_32" style="font-size:X-Small;">Fond Du Lac</span></td>
+                                                    <td><span id="rptSearchResult_Label1_32" style="font-size:X-Small;">Eldorado Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_32" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_32" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_32" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_32" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_32" style="font-size:X-Small;">2800</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_32" style="font-size:X-Small;">1640</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_33" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_33" style="font-size:X-Small;">Rock</span></td>
+                                                    <td><span id="rptSearchResult_Label1_33" style="font-size:X-Small;">Avon Bottoms Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_33" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_33" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_33" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_33" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_33" style="font-size:X-Small;">2000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_33" style="font-size:X-Small;">1100</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_34" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_34" style="font-size:X-Small;">Crawford</span></td>
+                                                    <td><span id="rptSearchResult_Label1_34" style="font-size:X-Small;">Kickapoo Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_34" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_34" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_34" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_34" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_34" style="font-size:X-Small;">1300</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_34" style="font-size:X-Small;">500</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_35" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_35" style="font-size:X-Small;">Sheboygan</span></td>
+                                                    <td><span id="rptSearchResult_Label1_35" style="font-size:X-Small;">Nichols Creek Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_35" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_35" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_35" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_35" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_35" style="font-size:X-Small;">210</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_35" style="font-size:X-Small;">300</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_36" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_36" style="font-size:X-Small;">Sheboygan</span></td>
+                                                    <td><span id="rptSearchResult_Label1_36" style="font-size:X-Small;">Adell Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_36" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_36" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_36" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_36" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_36" style="font-size:X-Small;">40</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_36" style="font-size:X-Small;">200</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_37" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_37" style="font-size:X-Small;">Green Lake</span></td>
+                                                    <td><span id="rptSearchResult_Label1_37" style="font-size:X-Small;">White River Marsh Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_37" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_37" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_37" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_37" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_37" style="font-size:X-Small;">3100</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_37" style="font-size:X-Small;">1560</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_38" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_38" style="font-size:X-Small;">Waukesha</span></td>
+                                                    <td><span id="rptSearchResult_Label1_38" style="font-size:X-Small;">Paradise Valley Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_38" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_38" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_38" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_38" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_38" style="font-size:X-Small;">275</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_38" style="font-size:X-Small;">340</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_39" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_39" style="font-size:X-Small;">Rock</span></td>
+                                                    <td><span id="rptSearchResult_Label1_39" style="font-size:X-Small;">Lima Marsh - Storrs Lake Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_39" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_39" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_39" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_39" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_39" style="font-size:X-Small;">895</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_39" style="font-size:X-Small;">1000</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_40" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_40" style="font-size:X-Small;">Jackson</span></td>
+                                                    <td><span id="rptSearchResult_Label1_40" style="font-size:X-Small;">Northfield Fishery Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_40" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_40" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_40" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_40" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_40" style="font-size:X-Small;">475</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_40" style="font-size:X-Small;">220</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_41" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_41" style="font-size:X-Small;">Green Lake</span></td>
+                                                    <td><span id="rptSearchResult_Label1_41" style="font-size:X-Small;">Grand River Marsh Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_41" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_41" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_41" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_41" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_41" style="font-size:X-Small;">1400</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_41" style="font-size:X-Small;">1100</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_42" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_42" style="font-size:X-Small;">Calumet</span></td>
+                                                    <td><span id="rptSearchResult_Label1_42" style="font-size:X-Small;">Killsnake Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_42" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_42" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_42" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_42" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_42" style="font-size:X-Small;">2000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_42" style="font-size:X-Small;">1120</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_43" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_43" style="font-size:X-Small;">Columbia</span></td>
+                                                    <td><span id="rptSearchResult_Label1_43" style="font-size:X-Small;">Paradise Marsh Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_43" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_43" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_43" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_43" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_43" style="font-size:X-Small;">1000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_43" style="font-size:X-Small;">300</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_44" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_44" style="font-size:X-Small;">Shawano</span></td>
+                                                    <td><span id="rptSearchResult_Label1_44" style="font-size:X-Small;">Navarino Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_44" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_44" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_44" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_44" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_44" style="font-size:X-Small;">500</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_44" style="font-size:X-Small;">140</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_45" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_45" style="font-size:X-Small;">Dane</span></td>
+                                                    <td><span id="rptSearchResult_Label1_45" style="font-size:X-Small;">Goose Lake Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_45" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_45" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_45" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_45" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_45" style="font-size:X-Small;">1450</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_45" style="font-size:X-Small;">960</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_46" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_46" style="font-size:X-Small;">Washington</span></td>
+                                                    <td><span id="rptSearchResult_Label1_46" style="font-size:X-Small;">Jackson Marsh Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_46" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_46" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_46" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_46" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_46" style="font-size:X-Small;">1100</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_46" style="font-size:X-Small;">1000</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_47" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_47" style="font-size:X-Small;">Sheboygan</span></td>
+                                                    <td><span id="rptSearchResult_Label1_47" style="font-size:X-Small;">Kettle Moraine State Forest-Northern Unit-Iansr</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_47" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_47" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_47" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_47" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_47" style="font-size:X-Small;">5200</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_47" style="font-size:X-Small;">2740</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_48" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_48" style="font-size:X-Small;">Kenosha</span></td>
+                                                    <td><span id="rptSearchResult_Label1_48" style="font-size:X-Small;">Richard Bong State Recreation Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_48" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_48" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_48" style="font-size:X-Small;">2PM Closure</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_48" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_48" style="font-size:X-Small;">3600</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_48" style="font-size:X-Small;">11000</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_49" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_49" style="font-size:X-Small;">Oconto</span></td>
+                                                    <td><span id="rptSearchResult_Label1_49" style="font-size:X-Small;">Green Bay West Shores Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_49" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_49" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_49" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_49" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_49" style="font-size:X-Small;">140</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_49" style="font-size:X-Small;"></span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_50" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_50" style="font-size:X-Small;">Dodge</span></td>
+                                                    <td><span id="rptSearchResult_Label1_50" style="font-size:X-Small;">Horicon Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_50" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_50" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_50" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_50" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_50" style="font-size:X-Small;">1000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_50" style="font-size:X-Small;">1300</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_51" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_51" style="font-size:X-Small;">Dane</span></td>
+                                                    <td><span id="rptSearchResult_Label1_51" style="font-size:X-Small;">Deansville Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_51" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_51" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_51" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_51" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_51" style="font-size:X-Small;">1668</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_51" style="font-size:X-Small;">860</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_52" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_52" style="font-size:X-Small;">Dunn</span></td>
+                                                    <td><span id="rptSearchResult_Label1_52" style="font-size:X-Small;">Gilbert Creek Fishery Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_52" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_52" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_52" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_52" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_52" style="font-size:X-Small;">120</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_52" style="font-size:X-Small;">40</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_53" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_53" style="font-size:X-Small;">Walworth</span></td>
+                                                    <td><span id="rptSearchResult_Label1_53" style="font-size:X-Small;">Bloomfield Wildlife Area - Brever And Litchfield Road</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_53" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_53" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_53" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_53" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_53" style="font-size:X-Small;">400</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_53" style="font-size:X-Small;">240</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_54" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_54" style="font-size:X-Small;">Racine</span></td>
+                                                    <td><span id="rptSearchResult_Label1_54" style="font-size:X-Small;">Hoosier Creek Habitat Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_54" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_54" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_54" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_54" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_54" style="font-size:X-Small;">115</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_54" style="font-size:X-Small;">100</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_55" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_55" style="font-size:X-Small;">Vernon</span></td>
+                                                    <td><span id="rptSearchResult_Label1_55" style="font-size:X-Small;">Kickapoo Valley Reserve State Natural Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_55" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_55" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_55" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_55" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_55" style="font-size:X-Small;">7000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_55" style="font-size:X-Small;">2380</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_56" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_56" style="font-size:X-Small;">Dane</span></td>
+                                                    <td><span id="rptSearchResult_Label1_56" style="font-size:X-Small;">Brooklyn Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_56" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_56" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_56" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_56" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_56" style="font-size:X-Small;">3500</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_56" style="font-size:X-Small;">2380</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_57" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_57" style="font-size:X-Small;">Dodge</span></td>
+                                                    <td><span id="rptSearchResult_Label1_57" style="font-size:X-Small;">Mud Lake Wildlife Area-Dodge</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_57" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_57" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_57" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_57" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_57" style="font-size:X-Small;">750</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_57" style="font-size:X-Small;">700</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_58" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_58" style="font-size:X-Small;">Sheboygan</span></td>
+                                                    <td><span id="rptSearchResult_Label1_58" style="font-size:X-Small;">Sheboygan Marsh Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_58" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_58" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_58" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_58" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_58" style="font-size:X-Small;">700</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_58" style="font-size:X-Small;">720</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_59" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_59" style="font-size:X-Small;">Lafayette</span></td>
+                                                    <td><span id="rptSearchResult_Label1_59" style="font-size:X-Small;">Yellowstone Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_59" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_59" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_59" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_59" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_59" style="font-size:X-Small;">2000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_59" style="font-size:X-Small;">1600</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_60" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_60" style="font-size:X-Small;">Trempealeau</span></td>
+                                                    <td><span id="rptSearchResult_Label1_60" style="font-size:X-Small;">Tamarack Creek Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_60" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_60" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_60" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_60" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_60" style="font-size:X-Small;"></span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_60" style="font-size:X-Small;">100</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_61" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_61" style="font-size:X-Small;">Columbia</span></td>
+                                                    <td><span id="rptSearchResult_Label1_61" style="font-size:X-Small;">Mud Lake Wildlife Area-Columbia</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_61" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_61" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_61" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_61" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_61" style="font-size:X-Small;">1300</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_61" style="font-size:X-Small;">780</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_62" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_62" style="font-size:X-Small;">Jefferson</span></td>
+                                                    <td><span id="rptSearchResult_Label1_62" style="font-size:X-Small;">Jefferson Marsh State Wildlife And Natural Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_62" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_62" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_62" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_62" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_62" style="font-size:X-Small;">3700</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_62" style="font-size:X-Small;">1600</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_63" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_63" style="font-size:X-Small;">Green</span></td>
+                                                    <td><span id="rptSearchResult_Label1_63" style="font-size:X-Small;">Albany Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_63" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_63" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_63" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_63" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_63" style="font-size:X-Small;">1000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_63" style="font-size:X-Small;">1100</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_64" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_64" style="font-size:X-Small;">Winnebago</span></td>
+                                                    <td><span id="rptSearchResult_Label1_64" style="font-size:X-Small;">Glacial Habitat Restoration Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_64" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_64" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_64" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_64" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_64" style="font-size:X-Small;">1500</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_64" style="font-size:X-Small;">770</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_65" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_65" style="font-size:X-Small;">Rock</span></td>
+                                                    <td><span id="rptSearchResult_Label1_65" style="font-size:X-Small;">Evansville Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_65" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_65" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_65" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_65" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_65" style="font-size:X-Small;">900</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_65" style="font-size:X-Small;">2000</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_66" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_66" style="font-size:X-Small;">Jefferson</span></td>
+                                                    <td><span id="rptSearchResult_Label1_66" style="font-size:X-Small;">Lake Mills Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_66" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_66" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_66" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_66" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_66" style="font-size:X-Small;">2950</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_66" style="font-size:X-Small;">1300</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_67" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_67" style="font-size:X-Small;">Iowa</span></td>
+                                                    <td><span id="rptSearchResult_Label1_67" style="font-size:X-Small;">Blackhawk Lake Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_67" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_67" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_67" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_67" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_67" style="font-size:X-Small;">1450</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_67" style="font-size:X-Small;">420</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_68" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_68" style="font-size:X-Small;">Walworth</span></td>
+                                                    <td><span id="rptSearchResult_Label1_68" style="font-size:X-Small;">Kmsu</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_68" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_68" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_68" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_68" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_68" style="font-size:X-Small;">640</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_68" style="font-size:X-Small;">400</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_69" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_69" style="font-size:X-Small;">Chippewa</span></td>
+                                                    <td><span id="rptSearchResult_Label1_69" style="font-size:X-Small;">Hallie Marsh Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_69" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_69" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_69" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_69" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_69" style="font-size:X-Small;"></span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_69" style="font-size:X-Small;">280</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_70" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_70" style="font-size:X-Small;">Racine</span></td>
+                                                    <td><span id="rptSearchResult_Label1_70" style="font-size:X-Small;">Tichigan Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_70" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_70" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_70" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_70" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_70" style="font-size:X-Small;">1000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_70" style="font-size:X-Small;">680</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_71" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_71" style="font-size:X-Small;">Dane</span></td>
+                                                    <td><span id="rptSearchResult_Label1_71" style="font-size:X-Small;">Dorn Creek Fishery Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_71" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_71" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_71" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_71" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_71" style="font-size:X-Small;">300</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_71" style="font-size:X-Small;">140</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_72" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_72" style="font-size:X-Small;">Richland</span></td>
+                                                    <td><span id="rptSearchResult_Label1_72" style="font-size:X-Small;">Willow Creek Fishery Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_72" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_72" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_72" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_72" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_72" style="font-size:X-Small;">300</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_72" style="font-size:X-Small;">160</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_73" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_73" style="font-size:X-Small;">Brown</span></td>
+                                                    <td><span id="rptSearchResult_Label1_73" style="font-size:X-Small;">Holland Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_73" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_73" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_73" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_73" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_73" style="font-size:X-Small;">215</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_73" style="font-size:X-Small;">220</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_74" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_74" style="font-size:X-Small;">Columbia</span></td>
+                                                    <td><span id="rptSearchResult_Label1_74" style="font-size:X-Small;">Grassy Lake Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_74" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_74" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_74" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_74" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_74" style="font-size:X-Small;">300</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_74" style="font-size:X-Small;">140</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_75" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_75" style="font-size:X-Small;">Dodge</span></td>
+                                                    <td><span id="rptSearchResult_Label1_75" style="font-size:X-Small;">Glacial Habitat Restoration Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_75" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_75" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_75" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_75" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_75" style="font-size:X-Small;">398</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_75" style="font-size:X-Small;">180</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_76" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_76" style="font-size:X-Small;">Waukesha</span></td>
+                                                    <td><span id="rptSearchResult_Label1_76" style="font-size:X-Small;">Oconomowoc Fish And Wildlife Habitat Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_76" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_76" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_76" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_76" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_76" style="font-size:X-Small;">120</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_76" style="font-size:X-Small;">80</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_77" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_77" style="font-size:X-Small;">Dunn</span></td>
+                                                    <td><span id="rptSearchResult_Label1_77" style="font-size:X-Small;">Big Beaver Creek Meadow State Natural Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_77" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_77" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_77" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_77" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_77" style="font-size:X-Small;">450</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_77" style="font-size:X-Small;">40</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_78" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_78" style="font-size:X-Small;">Richland</span></td>
+                                                    <td><span id="rptSearchResult_Label1_78" style="font-size:X-Small;">Richwood Unit</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_78" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_78" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_78" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_78" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_78" style="font-size:X-Small;">320</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_78" style="font-size:X-Small;">220</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_79" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_79" style="font-size:X-Small;">Dane</span></td>
+                                                    <td><span id="rptSearchResult_Label1_79" style="font-size:X-Small;">Badfish Creek Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_79" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_79" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_79" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_79" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_79" style="font-size:X-Small;">1980</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_79" style="font-size:X-Small;">1200</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_80" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_80" style="font-size:X-Small;">Walworth</span></td>
+                                                    <td><span id="rptSearchResult_Label1_80" style="font-size:X-Small;">Honey Creek Stream Bank Protection Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_80" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_80" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_80" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_80" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_80" style="font-size:X-Small;">490</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_80" style="font-size:X-Small;">300</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_81" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_81" style="font-size:X-Small;">Columbia</span></td>
+                                                    <td><span id="rptSearchResult_Label1_81" style="font-size:X-Small;">Peter Helland Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_81" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_81" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_81" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_81" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_81" style="font-size:X-Small;">1600</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_81" style="font-size:X-Small;">500</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_82" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_82" style="font-size:X-Small;">Marathon</span></td>
+                                                    <td><span id="rptSearchResult_Label1_82" style="font-size:X-Small;">Mc Millan Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_82" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_82" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_82" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_82" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_82" style="font-size:X-Small;">475</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_82" style="font-size:X-Small;">180</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_83" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_83" style="font-size:X-Small;">Trempealeau</span></td>
+                                                    <td><span id="rptSearchResult_Label1_83" style="font-size:X-Small;">Borst Valley Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_83" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_83" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_83" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_83" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_83" style="font-size:X-Small;"></span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_83" style="font-size:X-Small;">160</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_84" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_84" style="font-size:X-Small;">Iowa</span></td>
+                                                    <td><span id="rptSearchResult_Label1_84" style="font-size:X-Small;">Avoca Unit</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_84" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_84" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_84" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_84" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_84" style="font-size:X-Small;">2000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_84" style="font-size:X-Small;">1550</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_85" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_85" style="font-size:X-Small;">Kenosha</span></td>
+                                                    <td><span id="rptSearchResult_Label1_85" style="font-size:X-Small;">New Munster Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_85" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_85" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_85" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_85" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_85" style="font-size:X-Small;">1250</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_85" style="font-size:X-Small;">780</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_86" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_86" style="font-size:X-Small;">Racine</span></td>
+                                                    <td><span id="rptSearchResult_Label1_86" style="font-size:X-Small;">Honey Creek Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_86" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_86" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_86" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_86" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_86" style="font-size:X-Small;">1000</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_86" style="font-size:X-Small;">640</span></td>
+                                                </tr>
+                                            
+                                                <tr class="stripe" onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_87" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_87" style="font-size:X-Small;">Jefferson</span></td>
+                                                    <td><span id="rptSearchResult_Label1_87" style="font-size:X-Small;">Waterloo Wildlife Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_87" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_87" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_87" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_87" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_87" style="font-size:X-Small;">6760</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_87" style="font-size:X-Small;">2780</span></td>
+                                                </tr>
+                                            
+                                                <tr onmouseover="RowToggle(this, true);" onmouseout="RowToggle(this, false);">
+                                                    <td><span id="rptSearchResult_Label8_88" style="font-size:X-Small;">2023</span></td>
+                                                    <td><span id="rptSearchResult_lblTitle_88" style="font-size:X-Small;">Dane</span></td>
+                                                    <td><span id="rptSearchResult_Label1_88" style="font-size:X-Small;">Hook Lake/Grass Lake Wildlife And Natural Area</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label2_88" style="font-size:X-Small;">Yes</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label3_88" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label4_88" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label5_88" style="font-size:X-Small;">No</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label6_88" style="font-size:X-Small;">600</span></td>
+                                                    <td align="center"><span id="rptSearchResult_Label7_88" style="font-size:X-Small;">380</span></td>
+                                                </tr>
+                                            </td>
+	</tr>
+</table>
