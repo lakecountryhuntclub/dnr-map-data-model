@@ -1,0 +1,3762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Documentation for the Lake Country Hunt Club Initial Pheasant Stocking Data Model">
+    <meta name="author" content="Jimmy Briggs">
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>FFLIGHT - Lake Country Hunt Club Initial Pheasant Stocking Data Model</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="../..">Lake Country Hunt Club Initial Pheasant Stocking Data Model</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../">Data Documentation</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data Sources</a>
+    <ul class="dropdown-menu">
+        
+            
+<li class="active">
+    <a href="./">FFLIGHT</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dnr-properties/">DNR Property Data</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data Model</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../conformance/">Data Conformance</a>
+</li>
+
+        
+            
+<li >
+    <a href="../glossary/">Data Glossary</a>
+</li>
+
+        
+            
+<li >
+    <a href="../notes/">Data Notes</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Model <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../model/">Data Model</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../model/excel/">Excel</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../model/powerquery/">PowerQuery</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../technical/">Technical Development Documentation</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../dnr-properties/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#fflight-data">FFLIGHT Data</a></li>
+            <li class="second-level"><a href="#contents">Contents</a></li>
+                
+            <li class="second-level"><a href="#source">Source</a></li>
+                
+            <li class="second-level"><a href="#data">Data</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="fflight-data">FFLIGHT Data<a class="headerlink" href="#fflight-data" title="Permanent link">&para;</a></h1>
+<p>Data is also extracted from the Fields &amp; Forest Lands Interactive Gamebird Hunting Tool (FFLIGHT) using app's native
+GIS features to formulate and download a CSV table of properties.</p>
+<h2 id="contents">Contents<a class="headerlink" href="#contents" title="Permanent link">&para;</a></h2>
+<!-- TOC -->
+
+<ul>
+<li><a href="#source">Source</a></li>
+<li><a href="#data">Data</a></li>
+</ul>
+<!-- /TOC -->
+
+<h2 id="source">Source<a class="headerlink" href="#source" title="Permanent link">&para;</a></h2>
+<p>WIP</p>
+<h2 id="data">Data<a class="headerlink" href="#data" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>OBJECTID</th>
+<th>SHAPE</th>
+<th>LMS_LOCAL_</th>
+<th>PROP_NAME</th>
+<th>MAP_VISIBL</th>
+<th>STOCKING_Y</th>
+<th>ACRES_SUIT</th>
+<th>PREVIOUS_S</th>
+<th>PROPOSED_S</th>
+<th>MAX_BIRDS_</th>
+<th>COMMENTS_T</th>
+<th>SHAPE_AREA</th>
+<th>SHAPE_LEN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>90222</td>
+<td></td>
+<td>7014</td>
+<td>ADELL WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>40</td>
+<td></td>
+<td>200</td>
+<td>20</td>
+<td></td>
+<td>214988.6977</td>
+<td>3839.71192</td>
+</tr>
+<tr>
+<td>94706</td>
+<td></td>
+<td>8060</td>
+<td>MUD LAKE WILDLIFE AREA-COLUMBIA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td></td>
+<td>780</td>
+<td>80</td>
+<td></td>
+<td>9199433.607</td>
+<td>2513</td>
+</tr>
+<tr>
+<td>92148</td>
+<td></td>
+<td>10145</td>
+<td>EXTENSIVE WL HABITAT</td>
+<td>Y</td>
+<td>2023</td>
+<td>120</td>
+<td></td>
+<td>80</td>
+<td>20</td>
+<td></td>
+<td>314085.2745</td>
+<td>3023.341171</td>
+</tr>
+<tr>
+<td>154218</td>
+<td></td>
+<td>7020</td>
+<td>ALBANY WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>1100</td>
+<td>120</td>
+<td></td>
+<td>4028390.414</td>
+<td>2447</td>
+</tr>
+<tr>
+<td>137578</td>
+<td></td>
+<td>790</td>
+<td>DORN CREEK FISHERY AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>300</td>
+<td></td>
+<td>140</td>
+<td>20</td>
+<td></td>
+<td>1185326.19</td>
+<td>7161.05325</td>
+</tr>
+<tr>
+<td>154220</td>
+<td></td>
+<td>7460</td>
+<td>EVANSVILLE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>900</td>
+<td></td>
+<td>2000</td>
+<td>180</td>
+<td></td>
+<td>3634190.368</td>
+<td>1468</td>
+</tr>
+<tr>
+<td>112939</td>
+<td></td>
+<td>10049</td>
+<td>EXTENSIVE WL HABITAT</td>
+<td>Y</td>
+<td>2023</td>
+<td>400</td>
+<td></td>
+<td>240</td>
+<td>60</td>
+<td></td>
+<td>1433175.98</td>
+<td>6634.857095</td>
+</tr>
+<tr>
+<td>112940</td>
+<td></td>
+<td>10049</td>
+<td>EXTENSIVE WL HABITAT</td>
+<td>Y</td>
+<td>2023</td>
+<td>400</td>
+<td></td>
+<td>240</td>
+<td>60</td>
+<td></td>
+<td>3075323.907</td>
+<td>1370</td>
+</tr>
+<tr>
+<td>92141</td>
+<td></td>
+<td>7880</td>
+<td>LODI MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1140</td>
+<td></td>
+<td>600</td>
+<td>40</td>
+<td></td>
+<td>1110281.606</td>
+<td>4720.121895</td>
+</tr>
+<tr>
+<td>92140</td>
+<td></td>
+<td>7880</td>
+<td>LODI MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1140</td>
+<td></td>
+<td>600</td>
+<td>40</td>
+<td></td>
+<td>1169957.189</td>
+<td>6069.644061</td>
+</tr>
+<tr>
+<td>91831</td>
+<td></td>
+<td>7370</td>
+<td>DEANSVILLE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1668</td>
+<td></td>
+<td>860</td>
+<td>80</td>
+<td></td>
+<td>197285.048</td>
+<td>1806.369366</td>
+</tr>
+<tr>
+<td>91832</td>
+<td></td>
+<td>7370</td>
+<td>DEANSVILLE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1668</td>
+<td></td>
+<td>860</td>
+<td>80</td>
+<td></td>
+<td>3321597.192</td>
+<td>9053.33801</td>
+</tr>
+<tr>
+<td>90538</td>
+<td></td>
+<td>9240</td>
+<td>KETTLE MORAINE STATE FOREST-NORTHERN UNIT-IANSR</td>
+<td>Y</td>
+<td>2023</td>
+<td>5200</td>
+<td></td>
+<td>2740</td>
+<td>320</td>
+<td></td>
+<td>1170673</td>
+<td>1668</td>
+</tr>
+<tr>
+<td>90542</td>
+<td></td>
+<td>9240</td>
+<td>KETTLE MORAINE STATE FOREST-NORTHERN UNIT-IANSR</td>
+<td>Y</td>
+<td>2023</td>
+<td>5200</td>
+<td></td>
+<td>2740</td>
+<td>320</td>
+<td></td>
+<td>8813927.015</td>
+<td>1552</td>
+</tr>
+<tr>
+<td>90541</td>
+<td></td>
+<td>9240</td>
+<td>KETTLE MORAINE STATE FOREST-NORTHERN UNIT-IANSR</td>
+<td>Y</td>
+<td>2023</td>
+<td>5200</td>
+<td></td>
+<td>2740</td>
+<td>320</td>
+<td></td>
+<td>2210165</td>
+<td>2242</td>
+</tr>
+<tr>
+<td>90543</td>
+<td></td>
+<td>9240</td>
+<td>KETTLE MORAINE STATE FOREST-NORTHERN UNIT-IANSR</td>
+<td>Y</td>
+<td>2023</td>
+<td>5200</td>
+<td></td>
+<td>2740</td>
+<td>320</td>
+<td></td>
+<td>3429013.188</td>
+<td>9589.984985</td>
+</tr>
+<tr>
+<td>90539</td>
+<td></td>
+<td>9240</td>
+<td>KETTLE MORAINE STATE FOREST-NORTHERN UNIT-IANSR</td>
+<td>Y</td>
+<td>2023</td>
+<td>5200</td>
+<td></td>
+<td>2740</td>
+<td>320</td>
+<td></td>
+<td>1937039</td>
+<td>1985</td>
+</tr>
+<tr>
+<td>95684</td>
+<td></td>
+<td>8670</td>
+<td>TICHIGAN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>680</td>
+<td>60</td>
+<td></td>
+<td>1282222.551</td>
+<td>5971.921159</td>
+</tr>
+<tr>
+<td>95676</td>
+<td></td>
+<td>8670</td>
+<td>TICHIGAN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>680</td>
+<td>60</td>
+<td></td>
+<td>121792.5765</td>
+<td>2201.238355</td>
+</tr>
+<tr>
+<td>95677</td>
+<td></td>
+<td>8670</td>
+<td>TICHIGAN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>680</td>
+<td>60</td>
+<td></td>
+<td>1109767.63</td>
+<td>5949.349343</td>
+</tr>
+<tr>
+<td>95678</td>
+<td></td>
+<td>8670</td>
+<td>TICHIGAN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>680</td>
+<td>60</td>
+<td></td>
+<td>114968.7781</td>
+<td>2181.817809</td>
+</tr>
+<tr>
+<td>154874</td>
+<td></td>
+<td>7852</td>
+<td>LIMA MARSH - STORRS LAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>895</td>
+<td></td>
+<td>1000</td>
+<td>120</td>
+<td></td>
+<td>3618973.514</td>
+<td>2535</td>
+</tr>
+<tr>
+<td>137898</td>
+<td></td>
+<td>2623</td>
+<td>TRI-CREEK WATERSHED</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td></td>
+<td>300</td>
+<td>60</td>
+<td></td>
+<td>3099335.399</td>
+<td>9128.350044</td>
+</tr>
+<tr>
+<td>95673</td>
+<td></td>
+<td>7630</td>
+<td>HONEY CREEK WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>640</td>
+<td>60</td>
+<td></td>
+<td>734939.0303</td>
+<td>5953.151494</td>
+</tr>
+<tr>
+<td>95672</td>
+<td></td>
+<td>7630</td>
+<td>HONEY CREEK WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>640</td>
+<td>60</td>
+<td></td>
+<td>343981.7018</td>
+<td>2717.633138</td>
+</tr>
+<tr>
+<td>94708</td>
+<td></td>
+<td>7510</td>
+<td>FRENCH CREEK WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1600</td>
+<td></td>
+<td>740</td>
+<td>100</td>
+<td></td>
+<td>7477018.876</td>
+<td>2659</td>
+</tr>
+<tr>
+<td>94713</td>
+<td></td>
+<td>8220</td>
+<td>PINE ISLAND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td></td>
+<td>1600</td>
+<td>140</td>
+<td></td>
+<td>2104977</td>
+<td>3708</td>
+</tr>
+<tr>
+<td>116458</td>
+<td></td>
+<td>10107</td>
+<td>EXTENSIVE WL HABITAT</td>
+<td>Y</td>
+<td>2023</td>
+<td>200</td>
+<td></td>
+<td>120</td>
+<td>20</td>
+<td></td>
+<td>252573.8585</td>
+<td>2198.282225</td>
+</tr>
+<tr>
+<td>116459</td>
+<td></td>
+<td>10107</td>
+<td>EXTENSIVE WL HABITAT</td>
+<td>Y</td>
+<td>2023</td>
+<td>200</td>
+<td></td>
+<td>120</td>
+<td>20</td>
+<td></td>
+<td>372124.7747</td>
+<td>3080.507083</td>
+</tr>
+<tr>
+<td>116460</td>
+<td></td>
+<td>10107</td>
+<td>EXTENSIVE WL HABITAT</td>
+<td>Y</td>
+<td>2023</td>
+<td>200</td>
+<td></td>
+<td>120</td>
+<td>20</td>
+<td></td>
+<td>1745960.282</td>
+<td>6698.256351</td>
+</tr>
+<tr>
+<td>129584</td>
+<td></td>
+<td>8550</td>
+<td>SHAW MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>350</td>
+<td></td>
+<td>240</td>
+<td>20</td>
+<td></td>
+<td>3707525.5</td>
+<td>1332</td>
+</tr>
+<tr>
+<td>91824</td>
+<td></td>
+<td>11423</td>
+<td>Stream Bank Protection Fee Program</td>
+<td>Y</td>
+<td>2023</td>
+<td>450</td>
+<td></td>
+<td>220</td>
+<td>80</td>
+<td></td>
+<td>2880926.816</td>
+<td>8424.209281</td>
+</tr>
+<tr>
+<td>115818</td>
+<td></td>
+<td>7990</td>
+<td>MC MILLAN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>475</td>
+<td></td>
+<td>180</td>
+<td>60</td>
+<td></td>
+<td>1627907</td>
+<td>3826</td>
+</tr>
+<tr>
+<td>155834</td>
+<td></td>
+<td>7570</td>
+<td>GREEN BAY WEST SHORES WILDLIFE ARE</td>
+<td>Y</td>
+<td>2023</td>
+<td>140</td>
+<td></td>
+<td></td>
+<td>100</td>
+<td></td>
+<td>1470539.426</td>
+<td>6452.748534</td>
+</tr>
+<tr>
+<td>153902</td>
+<td></td>
+<td>7650</td>
+<td>HORICON WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>528475.8606</td>
+<td>3207.148778</td>
+</tr>
+<tr>
+<td>153899</td>
+<td></td>
+<td>7650</td>
+<td>HORICON WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>922782.577</td>
+<td>4028.843573</td>
+</tr>
+<tr>
+<td>91189</td>
+<td></td>
+<td>10310</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>Y</td>
+<td>2023</td>
+<td>1600</td>
+<td></td>
+<td>880</td>
+<td>80</td>
+<td></td>
+<td>1612009.391</td>
+<td>6485.782466</td>
+</tr>
+<tr>
+<td>90229</td>
+<td></td>
+<td>7170</td>
+<td>BLACKHAWK LAKE RECREATIONAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1450</td>
+<td></td>
+<td>420</td>
+<td>80</td>
+<td></td>
+<td>5019913.454</td>
+<td>1694</td>
+</tr>
+<tr>
+<td>90230</td>
+<td></td>
+<td>8920</td>
+<td>YELLOWSTONE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td></td>
+<td>1600</td>
+<td>140</td>
+<td></td>
+<td>974762.3176</td>
+<td>3966.696957</td>
+</tr>
+<tr>
+<td>90231</td>
+<td></td>
+<td>8920</td>
+<td>YELLOWSTONE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td></td>
+<td>1600</td>
+<td>140</td>
+<td></td>
+<td>1397422</td>
+<td>2927</td>
+</tr>
+<tr>
+<td>90232</td>
+<td></td>
+<td>8560</td>
+<td>SHEBOYGAN MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>700</td>
+<td></td>
+<td>720</td>
+<td>80</td>
+<td></td>
+<td>48803.37531</td>
+<td>954.969361</td>
+</tr>
+<tr>
+<td>144623</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>164186.814</td>
+<td>1868.179893</td>
+</tr>
+<tr>
+<td>144621</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>159721.0569</td>
+<td>1762.959293</td>
+</tr>
+<tr>
+<td>144629</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>236082.9081</td>
+<td>2032.80932</td>
+</tr>
+<tr>
+<td>144630</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>222125.7182</td>
+<td>2184.876085</td>
+</tr>
+<tr>
+<td>144622</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>79644.25755</td>
+<td>1165.626876</td>
+</tr>
+<tr>
+<td>144620</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>473228.526</td>
+<td>3927.977329</td>
+</tr>
+<tr>
+<td>144628</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>811497.5885</td>
+<td>5418.052342</td>
+</tr>
+<tr>
+<td>144625</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>1205865.736</td>
+<td>5487.426508</td>
+</tr>
+<tr>
+<td>144626</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>454552.9911</td>
+<td>3369.041204</td>
+</tr>
+<tr>
+<td>144627</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>309320.5516</td>
+<td>2374.335966</td>
+</tr>
+<tr>
+<td>144624</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>302577.923</td>
+<td>2389.235254</td>
+</tr>
+<tr>
+<td>95023</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>1153800.953</td>
+<td>8181.158318</td>
+</tr>
+<tr>
+<td>95024</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>1198779.915</td>
+<td>5482.162523</td>
+</tr>
+<tr>
+<td>95025</td>
+<td></td>
+<td>7694</td>
+<td>TOM LAWIN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>1180</td>
+<td></td>
+<td></td>
+<td>221728.254</td>
+<td>2176.339335</td>
+</tr>
+<tr>
+<td>92139</td>
+<td></td>
+<td>7640</td>
+<td>HOOK LAKE/GRASS LAKE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>600</td>
+<td></td>
+<td>380</td>
+<td></td>
+<td></td>
+<td>2048353.841</td>
+<td>6695.578269</td>
+</tr>
+<tr>
+<td>136622</td>
+<td></td>
+<td>7640</td>
+<td>HOOK LAKE/GRASS LAKE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>600</td>
+<td></td>
+<td>380</td>
+<td></td>
+<td></td>
+<td>510461.0075</td>
+<td>3367.835727</td>
+</tr>
+<tr>
+<td>90233</td>
+<td></td>
+<td>8150</td>
+<td>NICHOLS CREEK WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>210</td>
+<td></td>
+<td>300</td>
+<td>70</td>
+<td></td>
+<td>2399712.921</td>
+<td>9392.089771</td>
+</tr>
+<tr>
+<td>129587</td>
+<td></td>
+<td>8070</td>
+<td>MUD LAKE WILDLIFE AREA-DODGE</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td></td>
+<td>700</td>
+<td>60</td>
+<td></td>
+<td>980279.8152</td>
+<td>4529.352391</td>
+</tr>
+<tr>
+<td>129589</td>
+<td></td>
+<td>8070</td>
+<td>MUD LAKE WILDLIFE AREA-DODGE</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td></td>
+<td>700</td>
+<td>60</td>
+<td></td>
+<td>524295.2771</td>
+<td>3058.421118</td>
+</tr>
+<tr>
+<td>129585</td>
+<td></td>
+<td>8070</td>
+<td>MUD LAKE WILDLIFE AREA-DODGE</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td></td>
+<td>700</td>
+<td>60</td>
+<td></td>
+<td>414488.2942</td>
+<td>2575.760329</td>
+</tr>
+<tr>
+<td>129588</td>
+<td></td>
+<td>8070</td>
+<td>MUD LAKE WILDLIFE AREA-DODGE</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td></td>
+<td>700</td>
+<td>60</td>
+<td></td>
+<td>506017.1825</td>
+<td>3470.24415</td>
+</tr>
+<tr>
+<td>129586</td>
+<td></td>
+<td>8070</td>
+<td>MUD LAKE WILDLIFE AREA-DODGE</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td></td>
+<td>700</td>
+<td>60</td>
+<td></td>
+<td>704112.313</td>
+<td>4610.519766</td>
+</tr>
+<tr>
+<td>129590</td>
+<td></td>
+<td>8070</td>
+<td>MUD LAKE WILDLIFE AREA-DODGE</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td></td>
+<td>700</td>
+<td>60</td>
+<td></td>
+<td>246566.7861</td>
+<td>2447.668883</td>
+</tr>
+<tr>
+<td>129591</td>
+<td></td>
+<td>8070</td>
+<td>MUD LAKE WILDLIFE AREA-DODGE</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td></td>
+<td>700</td>
+<td>60</td>
+<td></td>
+<td>1319067.092</td>
+<td>5998.885574</td>
+</tr>
+<tr>
+<td>154538</td>
+<td></td>
+<td>7494</td>
+<td>FOOTVILLE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>4741</td>
+<td></td>
+<td>2000</td>
+<td>180</td>
+<td></td>
+<td>1918687</td>
+<td>9108</td>
+</tr>
+<tr>
+<td>154219</td>
+<td></td>
+<td>7090</td>
+<td>AVON BOTTOMS WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td></td>
+<td>1100</td>
+<td>120</td>
+<td></td>
+<td>8147541.949</td>
+<td>3765</td>
+</tr>
+<tr>
+<td>94707</td>
+<td></td>
+<td>7560</td>
+<td>GRASSY LAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>300</td>
+<td></td>
+<td>140</td>
+<td>40</td>
+<td></td>
+<td>2799174.683</td>
+<td>8210.098995</td>
+</tr>
+<tr>
+<td>153901</td>
+<td></td>
+<td>7650</td>
+<td>HORICON WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>945472.84</td>
+<td>4204.232518</td>
+</tr>
+<tr>
+<td>153900</td>
+<td></td>
+<td>7650</td>
+<td>HORICON WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>421038.5473</td>
+<td>3027.687181</td>
+</tr>
+<tr>
+<td>153898</td>
+<td></td>
+<td>7650</td>
+<td>HORICON WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>855807.7774</td>
+<td>4423.090671</td>
+</tr>
+<tr>
+<td>94385</td>
+<td></td>
+<td>7684</td>
+<td>JEFFERSON MARSH STATE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3700</td>
+<td></td>
+<td>1600</td>
+<td>160</td>
+<td></td>
+<td>368328.6197</td>
+<td>2521.16642</td>
+</tr>
+<tr>
+<td>94378</td>
+<td></td>
+<td>7684</td>
+<td>JEFFERSON MARSH STATE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3700</td>
+<td></td>
+<td>1600</td>
+<td>160</td>
+<td></td>
+<td>144679.2349</td>
+<td>2002.067852</td>
+</tr>
+<tr>
+<td>94381</td>
+<td></td>
+<td>7684</td>
+<td>JEFFERSON MARSH STATE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3700</td>
+<td></td>
+<td>1600</td>
+<td>160</td>
+<td></td>
+<td>110419.5307</td>
+<td>1361.519632</td>
+</tr>
+<tr>
+<td>94379</td>
+<td></td>
+<td>7684</td>
+<td>JEFFERSON MARSH STATE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3700</td>
+<td></td>
+<td>1600</td>
+<td>160</td>
+<td></td>
+<td>109014.379</td>
+<td>1855.261325</td>
+</tr>
+<tr>
+<td>94384</td>
+<td></td>
+<td>7684</td>
+<td>JEFFERSON MARSH STATE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3700</td>
+<td></td>
+<td>1600</td>
+<td>160</td>
+<td></td>
+<td>177505.145</td>
+<td>2435.437736</td>
+</tr>
+<tr>
+<td>94383</td>
+<td></td>
+<td>7684</td>
+<td>JEFFERSON MARSH STATE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3700</td>
+<td></td>
+<td>1600</td>
+<td>160</td>
+<td></td>
+<td>298279.0152</td>
+<td>2512.855499</td>
+</tr>
+<tr>
+<td>94382</td>
+<td></td>
+<td>7684</td>
+<td>JEFFERSON MARSH STATE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3700</td>
+<td></td>
+<td>1600</td>
+<td>160</td>
+<td></td>
+<td>138972.9231</td>
+<td>1538.061354</td>
+</tr>
+<tr>
+<td>94380</td>
+<td></td>
+<td>7684</td>
+<td>JEFFERSON MARSH STATE WILDLIFE AND NATURAL AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3700</td>
+<td></td>
+<td>1600</td>
+<td>160</td>
+<td></td>
+<td>980277.5887</td>
+<td>4470.528241</td>
+</tr>
+<tr>
+<td>92142</td>
+<td></td>
+<td>9263</td>
+<td>PARADISE VALLEY WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>275</td>
+<td></td>
+<td>340</td>
+<td>60</td>
+<td></td>
+<td>1868502.472</td>
+<td>1294</td>
+</tr>
+<tr>
+<td>112938</td>
+<td></td>
+<td>9263</td>
+<td>PARADISE VALLEY WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>275</td>
+<td></td>
+<td>340</td>
+<td>60</td>
+<td></td>
+<td>204733.3832</td>
+<td>2165.80582</td>
+</tr>
+<tr>
+<td>92143</td>
+<td></td>
+<td>8790</td>
+<td>VERNON WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1500</td>
+<td></td>
+<td>920</td>
+<td>100</td>
+<td></td>
+<td>1750262</td>
+<td>5094</td>
+</tr>
+<tr>
+<td>94389</td>
+<td></td>
+<td>7800</td>
+<td>LAKE MILLS WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2950</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>1379572.565</td>
+<td>5209.488055</td>
+</tr>
+<tr>
+<td>94386</td>
+<td></td>
+<td>7800</td>
+<td>LAKE MILLS WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2950</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>96271.32301</td>
+<td>1310.696659</td>
+</tr>
+<tr>
+<td>94388</td>
+<td></td>
+<td>7800</td>
+<td>LAKE MILLS WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2950</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>328235.3482</td>
+<td>2514.578889</td>
+</tr>
+<tr>
+<td>94390</td>
+<td></td>
+<td>7800</td>
+<td>LAKE MILLS WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2950</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>217776.3018</td>
+<td>2265.96695</td>
+</tr>
+<tr>
+<td>94387</td>
+<td></td>
+<td>7800</td>
+<td>LAKE MILLS WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2950</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>1836051.14</td>
+<td>6113.214098</td>
+</tr>
+<tr>
+<td>94392</td>
+<td></td>
+<td>7800</td>
+<td>LAKE MILLS WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2950</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>1159155</td>
+<td>5062.533875</td>
+</tr>
+<tr>
+<td>94391</td>
+<td></td>
+<td>7800</td>
+<td>LAKE MILLS WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2950</td>
+<td></td>
+<td>1300</td>
+<td>120</td>
+<td></td>
+<td>1580212.417</td>
+<td>7511.360699</td>
+</tr>
+<tr>
+<td>94396</td>
+<td></td>
+<td>8270</td>
+<td>PRINCES POINT WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1550</td>
+<td></td>
+<td>500</td>
+<td>80</td>
+<td></td>
+<td>1712060.647</td>
+<td>8346.853288</td>
+</tr>
+<tr>
+<td>94393</td>
+<td></td>
+<td>8310</td>
+<td>ROME POND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>440</td>
+<td>60</td>
+<td></td>
+<td>1779379.01</td>
+<td>7292.539919</td>
+</tr>
+<tr>
+<td>94394</td>
+<td></td>
+<td>8310</td>
+<td>ROME POND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>440</td>
+<td>60</td>
+<td></td>
+<td>3000574.317</td>
+<td>1345</td>
+</tr>
+<tr>
+<td>94400</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>573162.0075</td>
+<td>3512.546955</td>
+</tr>
+<tr>
+<td>94403</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>599245.3781</td>
+<td>3603.335744</td>
+</tr>
+<tr>
+<td>94401</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>890391.0628</td>
+<td>4146.555092</td>
+</tr>
+<tr>
+<td>94402</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>524670.7465</td>
+<td>3802.804284</td>
+</tr>
+<tr>
+<td>94406</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>1516747.268</td>
+<td>6517.989704</td>
+</tr>
+<tr>
+<td>94405</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>594522.7264</td>
+<td>3617.139559</td>
+</tr>
+<tr>
+<td>94404</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>1203075.182</td>
+<td>6933.441722</td>
+</tr>
+<tr>
+<td>94398</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>1219357.403</td>
+<td>8090.508922</td>
+</tr>
+<tr>
+<td>94397</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>1465410.418</td>
+<td>7451.679107</td>
+</tr>
+<tr>
+<td>94399</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>535321.4411</td>
+<td>3284.584494</td>
+</tr>
+<tr>
+<td>94407</td>
+<td></td>
+<td>8812</td>
+<td>WATERLOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>6760</td>
+<td></td>
+<td>2780</td>
+<td>240</td>
+<td></td>
+<td>282826.5936</td>
+<td>2314.210524</td>
+</tr>
+<tr>
+<td>91828</td>
+<td></td>
+<td>7250</td>
+<td>BROOKLYN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3500</td>
+<td></td>
+<td>2380</td>
+<td>200</td>
+<td></td>
+<td>1275915</td>
+<td>2234</td>
+</tr>
+<tr>
+<td>91828</td>
+<td></td>
+<td>7250</td>
+<td>BROOKLYN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3500</td>
+<td></td>
+<td>2380</td>
+<td>200</td>
+<td></td>
+<td>1275915</td>
+<td>2234</td>
+</tr>
+<tr>
+<td>91829</td>
+<td></td>
+<td>7250</td>
+<td>BROOKLYN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3500</td>
+<td></td>
+<td>2380</td>
+<td>200</td>
+<td></td>
+<td>1571689.394</td>
+<td>6438.066432</td>
+</tr>
+<tr>
+<td>91829</td>
+<td></td>
+<td>7250</td>
+<td>BROOKLYN WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3500</td>
+<td></td>
+<td>2380</td>
+<td>200</td>
+<td></td>
+<td>1571689.394</td>
+<td>6438.066432</td>
+</tr>
+<tr>
+<td>91830</td>
+<td></td>
+<td>7095</td>
+<td>BAD FISH CREEK WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1980</td>
+<td></td>
+<td>1200</td>
+<td>120</td>
+<td></td>
+<td>4630484.455</td>
+<td>1220</td>
+</tr>
+<tr>
+<td>92145</td>
+<td></td>
+<td>11387</td>
+<td>Stream Bank Protection Fee Program</td>
+<td>Y</td>
+<td>2023</td>
+<td>490</td>
+<td></td>
+<td>300</td>
+<td>60</td>
+<td></td>
+<td>1896796.263</td>
+<td>9656.219029</td>
+</tr>
+<tr>
+<td>93740</td>
+<td></td>
+<td>9493</td>
+<td>SAUK PRAIRIE RECREATION AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>640</td>
+<td>100</td>
+<td></td>
+<td>4473445.145</td>
+<td>1141</td>
+</tr>
+<tr>
+<td>93739</td>
+<td></td>
+<td>9493</td>
+<td>SAUK PRAIRIE RECREATION AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>640</td>
+<td>100</td>
+<td></td>
+<td>1693995.506</td>
+<td>5417.984731</td>
+</tr>
+<tr>
+<td>129258</td>
+<td></td>
+<td>7450</td>
+<td>ELDORADO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2800</td>
+<td></td>
+<td>1640</td>
+<td>180</td>
+<td></td>
+<td>2586323</td>
+<td>3266</td>
+</tr>
+<tr>
+<td>91833</td>
+<td></td>
+<td>7540</td>
+<td>GOOSE LAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1450</td>
+<td></td>
+<td>960</td>
+<td>80</td>
+<td></td>
+<td>503610.7615</td>
+<td>2998.265943</td>
+</tr>
+<tr>
+<td>92138</td>
+<td></td>
+<td>7540</td>
+<td>GOOSE LAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1450</td>
+<td></td>
+<td>960</td>
+<td>80</td>
+<td></td>
+<td>9166904.189</td>
+<td>1574</td>
+</tr>
+<tr>
+<td>136620</td>
+<td></td>
+<td>8170</td>
+<td>PARADISE MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1000</td>
+<td></td>
+<td>300</td>
+<td>40</td>
+<td></td>
+<td>6212602.873</td>
+<td>1791</td>
+</tr>
+<tr>
+<td>114221</td>
+<td></td>
+<td>8600</td>
+<td>PETER HELLAND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1600</td>
+<td></td>
+<td>500</td>
+<td>40</td>
+<td></td>
+<td>1454877</td>
+<td>4695</td>
+</tr>
+<tr>
+<td>90544</td>
+<td></td>
+<td>8100</td>
+<td>MULLET CREEK WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>650</td>
+<td></td>
+<td>500</td>
+<td>60</td>
+<td></td>
+<td>8251474.927</td>
+<td>2173</td>
+</tr>
+<tr>
+<td>90547</td>
+<td></td>
+<td>7815</td>
+<td>LAKES COULEE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>200</td>
+<td></td>
+<td></td>
+<td>83923.454</td>
+<td>1308.153139</td>
+</tr>
+<tr>
+<td>90548</td>
+<td></td>
+<td>7815</td>
+<td>LAKES COULEE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>200</td>
+<td></td>
+<td></td>
+<td>98537.14536</td>
+<td>1312.499226</td>
+</tr>
+<tr>
+<td>90549</td>
+<td></td>
+<td>7815</td>
+<td>LAKES COULEE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>200</td>
+<td></td>
+<td></td>
+<td>574466.2646</td>
+<td>3074.942447</td>
+</tr>
+<tr>
+<td>90551</td>
+<td></td>
+<td>7215</td>
+<td>BORST VALLEY WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>160</td>
+<td></td>
+<td></td>
+<td>143596.8029</td>
+<td>3355.486118</td>
+</tr>
+<tr>
+<td>90550</td>
+<td></td>
+<td>7215</td>
+<td>BORST VALLEY WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>160</td>
+<td></td>
+<td></td>
+<td>421364.8105</td>
+<td>2943.417638</td>
+</tr>
+<tr>
+<td>144632</td>
+<td></td>
+<td>10243</td>
+<td>SCATTERED WILDLIFE</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>280</td>
+<td>60</td>
+<td></td>
+<td>661522.6869</td>
+<td>3824.773134</td>
+</tr>
+<tr>
+<td>144618</td>
+<td></td>
+<td>10243</td>
+<td>SCATTERED WILDLIFE</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>280</td>
+<td>60</td>
+<td></td>
+<td>345485.9439</td>
+<td>3660.214128</td>
+</tr>
+<tr>
+<td>144619</td>
+<td></td>
+<td>10243</td>
+<td>SCATTERED WILDLIFE</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>280</td>
+<td>60</td>
+<td></td>
+<td>267907.6884</td>
+<td>2297.895073</td>
+</tr>
+<tr>
+<td>144631</td>
+<td></td>
+<td>10243</td>
+<td>SCATTERED WILDLIFE</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>280</td>
+<td>60</td>
+<td></td>
+<td>212059.0258</td>
+<td>2107.014373</td>
+</tr>
+<tr>
+<td>90553</td>
+<td></td>
+<td>8635</td>
+<td>TAMARACK CREEK WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>100</td>
+<td></td>
+<td></td>
+<td>50232.41613</td>
+<td>1012.521904</td>
+</tr>
+<tr>
+<td>90552</td>
+<td></td>
+<td>8635</td>
+<td>TAMARACK CREEK WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td></td>
+<td></td>
+<td>100</td>
+<td></td>
+<td></td>
+<td>306646.3183</td>
+<td>2294.201508</td>
+</tr>
+<tr>
+<td>129908</td>
+<td></td>
+<td>8870</td>
+<td>WHITE RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3100</td>
+<td></td>
+<td>1560</td>
+<td>160</td>
+<td></td>
+<td>2195955.361</td>
+<td>8970.456651</td>
+</tr>
+<tr>
+<td>129903</td>
+<td></td>
+<td>8870</td>
+<td>WHITE RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3100</td>
+<td></td>
+<td>1560</td>
+<td>160</td>
+<td></td>
+<td>625121.0865</td>
+<td>4068.230518</td>
+</tr>
+<tr>
+<td>129910</td>
+<td></td>
+<td>8870</td>
+<td>WHITE RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3100</td>
+<td></td>
+<td>1560</td>
+<td>160</td>
+<td></td>
+<td>1116244.794</td>
+<td>6330.823235</td>
+</tr>
+<tr>
+<td>129899</td>
+<td></td>
+<td>8870</td>
+<td>WHITE RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3100</td>
+<td></td>
+<td>1560</td>
+<td>160</td>
+<td></td>
+<td>2236882.926</td>
+<td>7244.911535</td>
+</tr>
+<tr>
+<td>129907</td>
+<td></td>
+<td>8870</td>
+<td>WHITE RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3100</td>
+<td></td>
+<td>1560</td>
+<td>160</td>
+<td></td>
+<td>1865214.777</td>
+<td>6374.30461</td>
+</tr>
+<tr>
+<td>129905</td>
+<td></td>
+<td>8870</td>
+<td>WHITE RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3100</td>
+<td></td>
+<td>1560</td>
+<td>160</td>
+<td></td>
+<td>50638.60806</td>
+<td>1219.033937</td>
+</tr>
+<tr>
+<td>129900</td>
+<td></td>
+<td>8870</td>
+<td>WHITE RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3100</td>
+<td></td>
+<td>1560</td>
+<td>160</td>
+<td></td>
+<td>1635004.99</td>
+<td>6563.486434</td>
+</tr>
+<tr>
+<td>129909</td>
+<td></td>
+<td>8870</td>
+<td>WHITE RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3100</td>
+<td></td>
+<td>1560</td>
+<td>160</td>
+<td></td>
+<td>952666.1123</td>
+<td>3839.894354</td>
+</tr>
+<tr>
+<td>129906</td>
+<td></td>
+<td>8870</td>
+<td>WHITE RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3100</td>
+<td></td>
+<td>1560</td>
+<td>160</td>
+<td></td>
+<td>1876576.893</td>
+<td>6726.974007</td>
+</tr>
+<tr>
+<td>132138</td>
+<td></td>
+<td>10413</td>
+<td>STATEWIDE HABITAT AREAS</td>
+<td>Y</td>
+<td>2023</td>
+<td>115</td>
+<td></td>
+<td>100</td>
+<td>20</td>
+<td></td>
+<td>531419.8785</td>
+<td>4538.113542</td>
+</tr>
+<tr>
+<td>156474</td>
+<td></td>
+<td>11599</td>
+<td>Lower Wolf River Bottomlands Natural Resource Area</td>
+<td>N</td>
+<td>2023</td>
+<td>120</td>
+<td></td>
+<td>20</td>
+<td>20</td>
+<td></td>
+<td>218964.0851</td>
+<td>2866.669104</td>
+</tr>
+<tr>
+<td>96637</td>
+<td></td>
+<td>8110</td>
+<td>NAVARINO WILDLIFE AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>500</td>
+<td></td>
+<td>140</td>
+<td>140</td>
+<td></td>
+<td>127152.5103</td>
+<td>1761.626655</td>
+</tr>
+<tr>
+<td>91500</td>
+<td></td>
+<td>8110</td>
+<td>NAVARINO WILDLIFE AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>500</td>
+<td></td>
+<td>140</td>
+<td>140</td>
+<td></td>
+<td>414997.6612</td>
+<td>4552.495206</td>
+</tr>
+<tr>
+<td>96633</td>
+<td></td>
+<td>8110</td>
+<td>NAVARINO WILDLIFE AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>500</td>
+<td></td>
+<td>140</td>
+<td>140</td>
+<td></td>
+<td>210572.6116</td>
+<td>3275.877897</td>
+</tr>
+<tr>
+<td>91501</td>
+<td></td>
+<td>8110</td>
+<td>NAVARINO WILDLIFE AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>500</td>
+<td></td>
+<td>140</td>
+<td>140</td>
+<td></td>
+<td>123715.8966</td>
+<td>1462.509936</td>
+</tr>
+<tr>
+<td>91498</td>
+<td></td>
+<td>8110</td>
+<td>NAVARINO WILDLIFE AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>500</td>
+<td></td>
+<td>140</td>
+<td>140</td>
+<td></td>
+<td>31387.85265</td>
+<td>721.542451</td>
+</tr>
+<tr>
+<td>91499</td>
+<td></td>
+<td>8110</td>
+<td>NAVARINO WILDLIFE AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>500</td>
+<td></td>
+<td>140</td>
+<td>140</td>
+<td></td>
+<td>237322.7489</td>
+<td>2623.677666</td>
+</tr>
+<tr>
+<td>91504</td>
+<td></td>
+<td>8110</td>
+<td>NAVARINO WILDLIFE AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>500</td>
+<td></td>
+<td>140</td>
+<td>140</td>
+<td></td>
+<td>104886.7071</td>
+<td>2036.980236</td>
+</tr>
+<tr>
+<td>96636</td>
+<td></td>
+<td>8110</td>
+<td>NAVARINO WILDLIFE AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>500</td>
+<td></td>
+<td>140</td>
+<td>140</td>
+<td></td>
+<td>37337.44115</td>
+<td>1345.236295</td>
+</tr>
+<tr>
+<td>94413</td>
+<td></td>
+<td>7240</td>
+<td>BRILLION WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>800</td>
+<td>400</td>
+<td>100</td>
+<td></td>
+<td>259616.6543</td>
+<td>2799.151398</td>
+</tr>
+<tr>
+<td>94408</td>
+<td></td>
+<td>7240</td>
+<td>BRILLION WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>800</td>
+<td>400</td>
+<td>100</td>
+<td></td>
+<td>68509.04299</td>
+<td>1203.870632</td>
+</tr>
+<tr>
+<td>94412</td>
+<td></td>
+<td>7240</td>
+<td>BRILLION WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>800</td>
+<td>400</td>
+<td>100</td>
+<td></td>
+<td>766310.1825</td>
+<td>4367.475275</td>
+</tr>
+<tr>
+<td>94410</td>
+<td></td>
+<td>7240</td>
+<td>BRILLION WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>800</td>
+<td>400</td>
+<td>100</td>
+<td></td>
+<td>644884.2377</td>
+<td>3214.644802</td>
+</tr>
+<tr>
+<td>94415</td>
+<td></td>
+<td>7240</td>
+<td>BRILLION WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>800</td>
+<td>400</td>
+<td>100</td>
+<td></td>
+<td>2289499.045</td>
+<td>1062</td>
+</tr>
+<tr>
+<td>94411</td>
+<td></td>
+<td>7240</td>
+<td>BRILLION WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>800</td>
+<td>400</td>
+<td>100</td>
+<td></td>
+<td>302471.4008</td>
+<td>3019.771266</td>
+</tr>
+<tr>
+<td>94414</td>
+<td></td>
+<td>7240</td>
+<td>BRILLION WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>800</td>
+<td>400</td>
+<td>100</td>
+<td></td>
+<td>100995.1935</td>
+<td>1592.261191</td>
+</tr>
+<tr>
+<td>94409</td>
+<td></td>
+<td>7240</td>
+<td>BRILLION WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>800</td>
+<td>400</td>
+<td>100</td>
+<td></td>
+<td>824245.5893</td>
+<td>4322.201475</td>
+</tr>
+<tr>
+<td>94066</td>
+<td></td>
+<td>7430</td>
+<td>DUNNVILLE WILDLIFE AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>1500</td>
+<td>840</td>
+<td>800</td>
+<td></td>
+<td></td>
+<td>1369866</td>
+<td>2123</td>
+</tr>
+<tr>
+<td>92144</td>
+<td></td>
+<td>9260</td>
+<td>KETTLE MORAINE STATE FOREST-SOUTHERN UNIT</td>
+<td>Y</td>
+<td>2023</td>
+<td>5000</td>
+<td>3500</td>
+<td>3340</td>
+<td>100</td>
+<td></td>
+<td>8650884</td>
+<td>2294</td>
+</tr>
+<tr>
+<td>91182</td>
+<td></td>
+<td>10102</td>
+<td>SCATTERED WILDLIFE</td>
+<td>Y</td>
+<td>2023</td>
+<td>475</td>
+<td>220</td>
+<td>220</td>
+<td>60</td>
+<td></td>
+<td>2549635.147</td>
+<td>8805.455906</td>
+</tr>
+<tr>
+<td>94419</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>2391985.745</td>
+<td>8716.155208</td>
+</tr>
+<tr>
+<td>94424</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>648619.8543</td>
+<td>4253.972958</td>
+</tr>
+<tr>
+<td>94417</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>1162036.902</td>
+<td>6396.58533</td>
+</tr>
+<tr>
+<td>94422</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>970873.6072</td>
+<td>4208.17339</td>
+</tr>
+<tr>
+<td>94421</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>836668.0903</td>
+<td>4105.849445</td>
+</tr>
+<tr>
+<td>94425</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>585401.7631</td>
+<td>3212.485687</td>
+</tr>
+<tr>
+<td>94423</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>509433.8374</td>
+<td>2961.056116</td>
+</tr>
+<tr>
+<td>94418</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>408937.7938</td>
+<td>3070.813111</td>
+</tr>
+<tr>
+<td>94420</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>830675.2386</td>
+<td>3887.094715</td>
+</tr>
+<tr>
+<td>94416</td>
+<td></td>
+<td>7740</td>
+<td>KILLSNAKE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1120</td>
+<td>120</td>
+<td></td>
+<td>623158.807</td>
+<td>3607.793397</td>
+</tr>
+<tr>
+<td>91180</td>
+<td></td>
+<td>8581</td>
+<td>SOUTH BEAVER CREEK WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>500</td>
+<td>200</td>
+<td>200</td>
+<td>60</td>
+<td></td>
+<td>2905567.714</td>
+<td>1133</td>
+</tr>
+<tr>
+<td>93418</td>
+<td></td>
+<td>7735</td>
+<td>KICKAPOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>720</td>
+<td>500</td>
+<td>100</td>
+<td>Bell Center Unit only; no stocking in Wauzeka Unit</td>
+<td>1074959.294</td>
+<td>4185.846541</td>
+</tr>
+<tr>
+<td>93419</td>
+<td></td>
+<td>7735</td>
+<td>KICKAPOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>720</td>
+<td>500</td>
+<td>100</td>
+<td>Bell Center Unit only; no stocking in Wauzeka Unit</td>
+<td>665285.9726</td>
+<td>3335.464887</td>
+</tr>
+<tr>
+<td>93422</td>
+<td></td>
+<td>7735</td>
+<td>KICKAPOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>720</td>
+<td>500</td>
+<td>100</td>
+<td>Bell Center Unit only; no stocking in Wauzeka Unit</td>
+<td>255687.2306</td>
+<td>3382.965093</td>
+</tr>
+<tr>
+<td>93421</td>
+<td></td>
+<td>7735</td>
+<td>KICKAPOO WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1300</td>
+<td>720</td>
+<td>500</td>
+<td>100</td>
+<td>Bell Center Unit only; no stocking in Wauzeka Unit</td>
+<td>543043.2015</td>
+<td>4447.970159</td>
+</tr>
+<tr>
+<td>138218</td>
+<td></td>
+<td>10389</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>Y</td>
+<td>2023</td>
+<td>120</td>
+<td></td>
+<td>100</td>
+<td>20</td>
+<td>Winward Square Prairie</td>
+<td>572841.4381</td>
+<td>4403.497441</td>
+</tr>
+<tr>
+<td>138218</td>
+<td></td>
+<td>10389</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>Y</td>
+<td>2023</td>
+<td>200</td>
+<td></td>
+<td>120</td>
+<td>40</td>
+<td>Wanek - LWSR</td>
+<td>572841.4381</td>
+<td>4403.497441</td>
+</tr>
+<tr>
+<td>95352</td>
+<td></td>
+<td>9075</td>
+<td>RICHARD BONG RECREATION AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3600</td>
+<td></td>
+<td>11000</td>
+<td>200</td>
+<td>Additional fees for hunters: Park pass (Daily or Annual), Bong Hunter  Fee: $12 Daily permit; $7 Youth Permit; $5 Non-stocking days. Hunting hours:  Property hunting hours are 9am - 2pm, except opening day which is per small  game regulations. Daily bag lim</td>
+<td>1205996</td>
+<td>2709</td>
+</tr>
+<tr>
+<td>89906</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>163771.9098</td>
+<td>1620.862732</td>
+</tr>
+<tr>
+<td>89907</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>173564.1065</td>
+<td>1670.936006</td>
+</tr>
+<tr>
+<td>89913</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>204655.5607</td>
+<td>1856.880509</td>
+</tr>
+<tr>
+<td>90220</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>1420072.064</td>
+<td>9744.900689</td>
+</tr>
+<tr>
+<td>89908</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>478115.8743</td>
+<td>3883.351882</td>
+</tr>
+<tr>
+<td>89905</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>475683.2283</td>
+<td>4948.664689</td>
+</tr>
+<tr>
+<td>90221</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>351631.3867</td>
+<td>6498.750001</td>
+</tr>
+<tr>
+<td>89911</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>902879.4154</td>
+<td>6196.440055</td>
+</tr>
+<tr>
+<td>89909</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>403343.5858</td>
+<td>2655.364538</td>
+</tr>
+<tr>
+<td>90218</td>
+<td></td>
+<td>7710</td>
+<td>C.D. (BUZZ) BESADNY FISH AND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>750</td>
+<td>440</td>
+<td>420</td>
+<td>40</td>
+<td>Many locations throughout the property are stocked by DNR, D.O.C. as  well as local hunt clubs. 12 PM closure.</td>
+<td>1847768.797</td>
+<td>8955.274437</td>
+</tr>
+<tr>
+<td>153580</td>
+<td></td>
+<td>7620</td>
+<td>HOLLAND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>215</td>
+<td>220</td>
+<td>220</td>
+<td>30</td>
+<td>12PM closure</td>
+<td>883540.8364</td>
+<td>5807.192208</td>
+</tr>
+<tr>
+<td>89902</td>
+<td></td>
+<td>7620</td>
+<td>HOLLAND WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>215</td>
+<td>220</td>
+<td>220</td>
+<td>30</td>
+<td>12PM closure</td>
+<td>892434.8931</td>
+<td>5864.815934</td>
+</tr>
+<tr>
+<td>153578</td>
+<td></td>
+<td>7520</td>
+<td>GARDNER SWAMP WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>200</td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+<td>Stocked with pheasants from D.O.C. (Door County Fish Farm and Game)</td>
+<td>144525.5132</td>
+<td>1619.847153</td>
+</tr>
+<tr>
+<td>153579</td>
+<td></td>
+<td>7520</td>
+<td>GARDNER SWAMP WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>200</td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+<td>Stocked with pheasants from D.O.C. (Door County Fish Farm and Game)</td>
+<td>1056158.743</td>
+<td>4266.171009</td>
+</tr>
+<tr>
+<td>96619</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>300</td>
+<td></td>
+<td>160</td>
+<td>40</td>
+<td>Winnebago County-Warnke GHRA</td>
+<td>2720296.655</td>
+<td>1312</td>
+</tr>
+<tr>
+<td>96619</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>1200</td>
+<td></td>
+<td>610</td>
+<td>140</td>
+<td>Fond du Lac GHRA (Glacial Habitat Restoration Area) properties: Spirit,  Rens, Buwalda, and O'Leary.</td>
+<td>2720296.655</td>
+<td>1312</td>
+</tr>
+<tr>
+<td>96625</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>300</td>
+<td></td>
+<td>160</td>
+<td>40</td>
+<td>Winnebago County-Warnke GHRA</td>
+<td>710119.4171</td>
+<td>3860.944615</td>
+</tr>
+<tr>
+<td>96625</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>1200</td>
+<td></td>
+<td>610</td>
+<td>140</td>
+<td>Fond du Lac GHRA (Glacial Habitat Restoration Area) properties: Spirit,  Rens, Buwalda, and O'Leary.</td>
+<td>710119.4171</td>
+<td>3860.944615</td>
+</tr>
+<tr>
+<td>96622</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>300</td>
+<td></td>
+<td>160</td>
+<td>40</td>
+<td>Winnebago County-Warnke GHRA</td>
+<td>3223527.668</td>
+<td>1369</td>
+</tr>
+<tr>
+<td>96622</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>1200</td>
+<td></td>
+<td>610</td>
+<td>140</td>
+<td>Fond du Lac GHRA (Glacial Habitat Restoration Area) properties: Spirit,  Rens, Buwalda, and O'Leary.</td>
+<td>3223527.668</td>
+<td>1369</td>
+</tr>
+<tr>
+<td>112618</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>300</td>
+<td></td>
+<td>160</td>
+<td>40</td>
+<td>Winnebago County-Warnke GHRA</td>
+<td>1633986.238</td>
+<td>7538.392447</td>
+</tr>
+<tr>
+<td>112618</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>1200</td>
+<td></td>
+<td>610</td>
+<td>140</td>
+<td>Fond du Lac GHRA (Glacial Habitat Restoration Area) properties: Spirit,  Rens, Buwalda, and O'Leary.</td>
+<td>1633986.238</td>
+<td>7538.392447</td>
+</tr>
+<tr>
+<td>96626</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>300</td>
+<td></td>
+<td>160</td>
+<td>40</td>
+<td>Winnebago County-Warnke GHRA</td>
+<td>949680.1478</td>
+<td>6087.229778</td>
+</tr>
+<tr>
+<td>96626</td>
+<td></td>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Y</td>
+<td>2023</td>
+<td>1200</td>
+<td></td>
+<td>610</td>
+<td>140</td>
+<td>Fond du Lac GHRA (Glacial Habitat Restoration Area) properties: Spirit,  Rens, Buwalda, and O'Leary.</td>
+<td>949680.1478</td>
+<td>6087.229778</td>
+</tr>
+<tr>
+<td>90226</td>
+<td></td>
+<td>10305</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>N</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1550</td>
+<td>140</td>
+<td>Avoca Rod &amp; Gun Club stocks ~450 birds as part of the DOC program</td>
+<td>1099554.108</td>
+<td>4658.696651</td>
+</tr>
+<tr>
+<td>90227</td>
+<td></td>
+<td>10305</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>N</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1550</td>
+<td>140</td>
+<td>Avoca Rod &amp; Gun Club stocks ~450 birds as part of the DOC program</td>
+<td>434792.8516</td>
+<td>3042.842991</td>
+</tr>
+<tr>
+<td>90228</td>
+<td></td>
+<td>10305</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>N</td>
+<td>2023</td>
+<td>2000</td>
+<td>1120</td>
+<td>1550</td>
+<td>140</td>
+<td>Avoca Rod &amp; Gun Club stocks ~450 birds as part of the DOC program</td>
+<td>4625905.568</td>
+<td>9219.054417</td>
+</tr>
+<tr>
+<td>91827</td>
+<td></td>
+<td>7670</td>
+<td>JACKSON MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1100</td>
+<td></td>
+<td>1000</td>
+<td>120</td>
+<td>Acres suitable for hunting reflects approximate area in grassland,  farmland, or shrubland adjacent to pheasant stocked areas &amp; reasonably  likely to hold birds.</td>
+<td>1053250</td>
+<td>2747</td>
+</tr>
+<tr>
+<td>96628</td>
+<td></td>
+<td>7535</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>N</td>
+<td>2023</td>
+<td>398</td>
+<td></td>
+<td>180</td>
+<td>40</td>
+<td>Dodge County GHRA properties- DeVries, Werth</td>
+<td>959274.9154</td>
+<td>6089.728481</td>
+</tr>
+<tr>
+<td>96621</td>
+<td></td>
+<td>7535</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>N</td>
+<td>2023</td>
+<td>398</td>
+<td></td>
+<td>180</td>
+<td>40</td>
+<td>Dodge County GHRA properties- DeVries, Werth</td>
+<td>638629.4802</td>
+<td>4096.248577</td>
+</tr>
+<tr>
+<td>92780</td>
+<td></td>
+<td>7535</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>N</td>
+<td>2023</td>
+<td>398</td>
+<td></td>
+<td>180</td>
+<td>40</td>
+<td>Dodge County GHRA properties- DeVries, Werth</td>
+<td>1541440.848</td>
+<td>5731.683982</td>
+</tr>
+<tr>
+<td>153581</td>
+<td></td>
+<td>10217</td>
+<td>STATEWIDE WILDLIFE HABITAT</td>
+<td>Y</td>
+<td>2023</td>
+<td>70</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>Stocked with birds from D.O.C. (Door County Fish Farm and Game Club)</td>
+<td>286745.6749</td>
+<td>2427.698702</td>
+</tr>
+<tr>
+<td>91822</td>
+<td></td>
+<td>7030</td>
+<td>ALLENTON WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>900</td>
+<td></td>
+<td>800</td>
+<td>100</td>
+<td>Acres suitable for hunting reflects approximate area in grassland,  farmland, or shrubland adjacent to pheasant stocked areas &amp; reasonably  likely to hold birds.</td>
+<td>3786286.591</td>
+<td>1138</td>
+</tr>
+<tr>
+<td>156795</td>
+<td></td>
+<td>8650</td>
+<td>THERESA WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2500</td>
+<td></td>
+<td>1600</td>
+<td>180</td>
+<td>Acres suitable for hunting reflects approximate area in grassland,  farmland, or shrubland adjacent to pheasant stocked areas &amp; reasonably  likely to hold birds.</td>
+<td>1044618.804</td>
+<td>4861.98581</td>
+</tr>
+<tr>
+<td>156796</td>
+<td></td>
+<td>8650</td>
+<td>THERESA WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2500</td>
+<td></td>
+<td>1600</td>
+<td>180</td>
+<td>Acres suitable for hunting reflects approximate area in grassland,  farmland, or shrubland adjacent to pheasant stocked areas &amp; reasonably  likely to hold birds.</td>
+<td>245163.7852</td>
+<td>1989.882</td>
+</tr>
+<tr>
+<td>156794</td>
+<td></td>
+<td>8650</td>
+<td>THERESA WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2500</td>
+<td></td>
+<td>1600</td>
+<td>180</td>
+<td>Acres suitable for hunting reflects approximate area in grassland,  farmland, or shrubland adjacent to pheasant stocked areas &amp; reasonably  likely to hold birds.</td>
+<td>2103987</td>
+<td>3362</td>
+</tr>
+<tr>
+<td>156797</td>
+<td></td>
+<td>8650</td>
+<td>THERESA WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2500</td>
+<td></td>
+<td>1600</td>
+<td>180</td>
+<td>Acres suitable for hunting reflects approximate area in grassland,  farmland, or shrubland adjacent to pheasant stocked areas &amp; reasonably  likely to hold birds.</td>
+<td>647064.9231</td>
+<td>4794.336641</td>
+</tr>
+<tr>
+<td>91825</td>
+<td></td>
+<td>8650</td>
+<td>THERESA WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>2500</td>
+<td></td>
+<td>1600</td>
+<td>180</td>
+<td>Acres suitable for hunting reflects approximate area in grassland,  farmland, or shrubland adjacent to pheasant stocked areas &amp; reasonably  likely to hold birds.</td>
+<td>1858000.274</td>
+<td>8233.773144</td>
+</tr>
+<tr>
+<td>136625</td>
+<td></td>
+<td>10301</td>
+<td>STATEWIDE WILDLIFE HABITAT</td>
+<td>Y</td>
+<td>2023</td>
+<td>230</td>
+<td></td>
+<td>100</td>
+<td>20</td>
+<td>Sinissippi</td>
+<td>1224275.606</td>
+<td>5002.342808</td>
+</tr>
+<tr>
+<td>156154</td>
+<td></td>
+<td>11713</td>
+<td>Wisconsin Waterfowl Association</td>
+<td>Y</td>
+<td>2023</td>
+<td>152</td>
+<td></td>
+<td></td>
+<td>100</td>
+<td>Additional DOT acreage adjacent of 33 ac</td>
+<td>310822.3041</td>
+<td>2373.771684</td>
+</tr>
+<tr>
+<td>156155</td>
+<td></td>
+<td>11713</td>
+<td>Wisconsin Waterfowl Association</td>
+<td>Y</td>
+<td>2023</td>
+<td>152</td>
+<td></td>
+<td></td>
+<td>100</td>
+<td>Additional DOT acreage adjacent of 33 ac</td>
+<td>298070.4184</td>
+<td>2361.778337</td>
+</tr>
+<tr>
+<td>93741</td>
+<td></td>
+<td>8130</td>
+<td>NEW MUNSTER WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1250</td>
+<td></td>
+<td>780</td>
+<td>80</td>
+<td>Property has 12pm Closure.</td>
+<td>297050.1745</td>
+<td>3536.209134</td>
+</tr>
+<tr>
+<td>114220</td>
+<td></td>
+<td>8130</td>
+<td>NEW MUNSTER WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1250</td>
+<td></td>
+<td>780</td>
+<td>80</td>
+<td>Property has 12pm Closure.</td>
+<td>491341.6825</td>
+<td>4395.37234</td>
+</tr>
+<tr>
+<td>155196</td>
+<td></td>
+<td>8130</td>
+<td>NEW MUNSTER WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1250</td>
+<td></td>
+<td>780</td>
+<td>80</td>
+<td>Property has 12pm Closure.</td>
+<td>150836.4127</td>
+<td>1669.152894</td>
+</tr>
+<tr>
+<td>135658</td>
+<td></td>
+<td>10524</td>
+<td>KICKAPOO VALLEY RESERVE STATE NATURAL AREA</td>
+<td>N</td>
+<td>2023</td>
+<td>7000</td>
+<td>2530</td>
+<td>2380</td>
+<td>320</td>
+<td>La Farge Unit</td>
+<td>3289657</td>
+<td>5160</td>
+</tr>
+<tr>
+<td>136298</td>
+<td></td>
+<td>10389</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>Y</td>
+<td>2023</td>
+<td>120</td>
+<td></td>
+<td>100</td>
+<td>20</td>
+<td>Winward Square Prairie</td>
+<td>601708.804</td>
+<td>4130.726709</td>
+</tr>
+<tr>
+<td>136298</td>
+<td></td>
+<td>10389</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>Y</td>
+<td>2023</td>
+<td>200</td>
+<td></td>
+<td>120</td>
+<td>40</td>
+<td>Wanek - LWSR</td>
+<td>601708.804</td>
+<td>4130.726709</td>
+</tr>
+<tr>
+<td>94698</td>
+<td></td>
+<td>7550</td>
+<td>GRAND RIVER MARSH WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>1400</td>
+<td></td>
+<td>1100</td>
+<td>120</td>
+<td>12:00 pm Closure Monday-Friday through November 3rd.</td>
+<td>8731191.965</td>
+<td>2095</td>
+</tr>
+<tr>
+<td>90225</td>
+<td></td>
+<td>7970</td>
+<td>MAZOMANIE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3600</td>
+<td></td>
+<td>1860</td>
+<td>200</td>
+<td>Additional 140 birds stocked on adjacent Dane County Parks - Walking  Iron Wildlife Area</td>
+<td>3346433.56</td>
+<td>8376.626263</td>
+</tr>
+<tr>
+<td>144307</td>
+<td></td>
+<td>7970</td>
+<td>MAZOMANIE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3600</td>
+<td></td>
+<td>1860</td>
+<td>200</td>
+<td>Additional 140 birds stocked on adjacent Dane County Parks - Walking  Iron Wildlife Area</td>
+<td>996999.0457</td>
+<td>5065.535656</td>
+</tr>
+<tr>
+<td>90224</td>
+<td></td>
+<td>7970</td>
+<td>MAZOMANIE WILDLIFE AREA</td>
+<td>Y</td>
+<td>2023</td>
+<td>3600</td>
+<td></td>
+<td>1860</td>
+<td>200</td>
+<td>Additional 140 birds stocked on adjacent Dane County Parks  - Walking Iron Wildlife Area</td>
+<td>1863704.248</td>
+<td>7556.085265</td>
+</tr>
+</tbody>
+</table></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>

@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Documentation for the Lake Country Hunt Club Initial Pheasant Stocking Data Model">
+    <meta name="author" content="Jimmy Briggs">
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>Data Conformance - Lake Country Hunt Club Initial Pheasant Stocking Data Model</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="../..">Lake Country Hunt Club Initial Pheasant Stocking Data Model</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../">Data Documentation</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data Sources</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../fflight/">FFLIGHT</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dnr-properties/">DNR Property Data</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data Model</a>
+    <ul class="dropdown-menu">
+        
+            
+<li class="active">
+    <a href="./">Data Conformance</a>
+</li>
+
+        
+            
+<li >
+    <a href="../glossary/">Data Glossary</a>
+</li>
+
+        
+            
+<li >
+    <a href="../notes/">Data Notes</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Model <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../model/">Data Model</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../model/excel/">Excel</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../model/powerquery/">PowerQuery</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../technical/">Technical Development Documentation</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../dnr-properties/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../glossary/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#data-conformance">Data Conformance</a></li>
+            <li class="second-level"><a href="#contents">Contents</a></li>
+                
+            <li class="second-level"><a href="#discrepancies-and-mitigations">Discrepancies and Mitigations</a></li>
+                
+                <li class="third-level"><a href="#extensive-wl-habitat">Extensive WL Habitat</a></li>
+                <li class="third-level"><a href="#glacial-habitat-restoration">Glacial Habitat Restoration</a></li>
+                <li class="third-level"><a href="#lower-wisconsin-state-riverway">Lower Wisconsin State Riverway</a></li>
+                <li class="third-level"><a href="#lower-wolf-river-bottomlands-natural-resource-area">Lower Wolf River Bottomlands Natural Resource Area</a></li>
+                <li class="third-level"><a href="#scattered-wildlife">Scattered Wildlife</a></li>
+                <li class="third-level"><a href="#statewide-habitat-areas">Statewide Habitat Areas</a></li>
+                <li class="third-level"><a href="#statewide-wildlife-habitate">Statewide Wildlife Habitate</a></li>
+                <li class="third-level"><a href="#stream-bank-protection-program">Stream Bank Protection Program</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="data-conformance">Data Conformance<a class="headerlink" href="#data-conformance" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><strong>Purpose</strong>: Conform and synthesize the data extracted from <a href="">FLIGHT</a> application with the
+data downloaded from the <a href="">DNR Pheasant Stocking Property Listing</a>.</p>
+</blockquote>
+<h2 id="contents">Contents<a class="headerlink" href="#contents" title="Permanent link">&para;</a></h2>
+<!-- TOC -->
+
+<ul>
+<li><a href="#contents">Contents</a></li>
+<li><a href="#discrepancies-and-mitigations">Discrepancies and Mitigations</a></li>
+<li><a href="#extensive-wl-habitat">Extensive WL Habitat</a></li>
+<li><a href="#glacial-habitat-restoration">Glacial Habitat Restoration</a></li>
+<li><a href="#lower-wisconsin-state-riverway">Lower Wisconsin State Riverway</a></li>
+<li><a href="#lower-wolf-river-bottomlands-natural-resource-area">Lower Wolf River Bottomlands Natural Resource Area</a></li>
+<li><a href="#scattered-wildlife">Scattered Wildlife</a></li>
+<li><a href="#statewide-habitat-areas">Statewide Habitat Areas</a></li>
+<li><a href="#statewide-wildlife-habitate">Statewide Wildlife Habitate</a></li>
+<li><a href="#stream-bank-protection-program">Stream Bank Protection Program</a></li>
+</ul>
+<!-- /TOC -->
+
+<h2 id="discrepancies-and-mitigations">Discrepancies and Mitigations<a class="headerlink" href="#discrepancies-and-mitigations" title="Permanent link">&para;</a></h2>
+<h3 id="extensive-wl-habitat">Extensive WL Habitat<a class="headerlink" href="#extensive-wl-habitat" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>FFLIGHT</strong> property "EXTENSIVE WL HABITAT" has three separate, distinct codes, which have now been mapped to
+  individual properties per below:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Code</th>
+<th align="center">FFLIGHT</th>
+<th align="center">Property</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">10145</td>
+<td align="center">EXTENSIVE WL HABITAT</td>
+<td align="center">Oconomowoc Fish And Wildlife Habitat Area</td>
+</tr>
+<tr>
+<td align="center">10049</td>
+<td align="center">EXTENSIVE WL HABITAT</td>
+<td align="center">Bloomfield Wildlife Area - Brever And Litchfield Road</td>
+</tr>
+<tr>
+<td align="center">10107</td>
+<td align="center">EXTENSIVE WL HABITAT</td>
+<td align="center">Troy Wildlife Area - Lauderdale Hwy A</td>
+</tr>
+</tbody>
+</table>
+<h3 id="glacial-habitat-restoration">Glacial Habitat Restoration<a class="headerlink" href="#glacial-habitat-restoration" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>FFLIGHT</strong> property "GLACIAL HABITAT RESTORATION" uses a single code (7534) for all listings, however, the comments
+  and stocking levels indicate three separate actual properties that are in turn converged into two used properties.</li>
+</ul>
+<blockquote>
+<p>Note: In FFLIGHT, "GLACIAL HABITAT RESTORATION" separates "Winnebago County" and "Fond du Lac" <strong>GHRA</strong> properties
+(300 and 1,200 acres, respectively), but in the DNR Property Data these are combined into a single property with
+1,500 acres: "Glacial Habitat Restoration Area" in Winnebago County.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>FFLIGHT</th>
+<th>Property</th>
+<th>County</th>
+<th>Acres for Hunting</th>
+<th>Stocking Levels</th>
+<th>Max Birds per Stocking</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Glacial Habitat Restoration Area - Dodge</td>
+<td>Dodge</td>
+<td>398</td>
+<td>180</td>
+<td>40</td>
+<td>Dodge County GHRA properties- DeVries, Werth</td>
+</tr>
+<tr>
+<td>7534</td>
+<td>GLACIAL HABITAT RESTORATION</td>
+<td>Glacial Habitat Restoration Area - Winnebago</td>
+<td>Winnebago</td>
+<td>1500</td>
+<td>770</td>
+<td>180</td>
+<td>Winnebago County-Warnke GHRA; Fond du Lac GHRA (Glacial Habitat  Restoration Area) properties: Spirit, Rens, Buwalda, and O'Leary.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="lower-wisconsin-state-riverway">Lower Wisconsin State Riverway<a class="headerlink" href="#lower-wisconsin-state-riverway" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>FFLIGHT</strong> "LOWER WISCONSIN STATE RIVERWAY" Property has three separate codees which have now been mapped to
+  individual properties per below:</li>
+</ul>
+<blockquote>
+<p>Notes:</p>
+<ul>
+<li>In FFLIGHT, code 10389 has two separate properties with 120 and 200 acres respectively, these are labeled with
+  comments indicating "Winward Square Prairie" and "Wanek LWSR".</li>
+<li>These are to be mapped to "Richwood Unit" in Richland County once merged into a single property with 320 acres.</li>
+</ul>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>FFLIGHT</th>
+<th>Property</th>
+<th>County</th>
+<th>Acres for Hunting</th>
+<th>Stocking Levels</th>
+<th>Max Birds per Stocking</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10310</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>Boscobel Unit</td>
+<td>Grant</td>
+<td>1600</td>
+<td>880</td>
+<td>80</td>
+<td></td>
+</tr>
+<tr>
+<td>10389</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>Richwood Unit</td>
+<td>Richland</td>
+<td>320</td>
+<td>220</td>
+<td>60</td>
+<td>Combining "Winward Square Prairie" (120 acres) and "Wanek  - LWSR" (200 acres) into Richwood Unit with 320 total acres.</td>
+</tr>
+<tr>
+<td>10305</td>
+<td>LOWER WISCONSIN STATE RIVERWAY</td>
+<td>Avoca Unit</td>
+<td>Iowa</td>
+<td>2000</td>
+<td>1550</td>
+<td>140</td>
+<td>Avoca Rod &amp; Gun Club stocks ~450 birds as part of the DOC program</td>
+</tr>
+</tbody>
+</table>
+<h3 id="lower-wolf-river-bottomlands-natural-resource-area">Lower Wolf River Bottomlands Natural Resource Area<a class="headerlink" href="#lower-wolf-river-bottomlands-natural-resource-area" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>FFLIGHT</strong> Property "Lower Wolf River Bottomlands Natural Resource Area" mapped to "Beilfuss Unit":</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>FFLIGHT</th>
+<th>Property</th>
+<th>County</th>
+<th>Acres for Hunting</th>
+<th>Stocking Levels</th>
+<th>Max Birds per Stocking</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11599</td>
+<td>Lower Wolf River Bottomlands Natural Resource Area</td>
+<td>Beilfuss Unit</td>
+<td>Shawano</td>
+<td>120</td>
+<td>20</td>
+<td>20</td>
+<td>Mapped "Lower Wolf River Bottomlands Natural Resource Area" to  "Beilfuss Unit"</td>
+</tr>
+</tbody>
+</table>
+<h3 id="scattered-wildlife">Scattered Wildlife<a class="headerlink" href="#scattered-wildlife" title="Permanent link">&para;</a></h3>
+<p>In FFLIGHT, the "SCATTERED WILDLIFE" Property has two separate codes: 10243 and 10102 deemed to be
+"Hallie Marsh Wildlife Area" and "Northfield Fishery Area", respectively.</p>
+<blockquote>
+<p>Question: <em>Hallie Marsh Wildlife Area is missing acres?</em></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>FFLIGHT</th>
+<th>Property</th>
+<th>County</th>
+<th>Acres for Hunting</th>
+<th>Stocking Levels</th>
+<th>Max Birds per Stocking</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10243</td>
+<td>SCATTERED WILDLIFE</td>
+<td>Hallie Marsh Wildlife Area</td>
+<td>Chippewa</td>
+<td></td>
+<td>280</td>
+<td>60</td>
+<td>Missing Acres; Split out from SCATTERED WILDLIFE</td>
+</tr>
+<tr>
+<td>10102</td>
+<td>SCATTERED WILDLIFE</td>
+<td>Northfield Fishery Area</td>
+<td>Jackson</td>
+<td>475</td>
+<td>220</td>
+<td>60</td>
+<td>Split out from SCATTERED WILDLIFE</td>
+</tr>
+</tbody>
+</table>
+<h3 id="statewide-habitat-areas">Statewide Habitat Areas<a class="headerlink" href="#statewide-habitat-areas" title="Permanent link">&para;</a></h3>
+<p>In FFLIGHT "STATEWIDE HABITAT AREAS" (10413) mapped to property "Hoosier Creek Habitat Area":</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>FFLIGHT</th>
+<th>Property</th>
+<th>County</th>
+<th>Acres for Hunting</th>
+<th>Stocking Levels</th>
+<th>Max Birds per Stocking</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10413</td>
+<td>STATEWIDE HABITAT AREAS</td>
+<td>Hoosier Creek Habitat Area</td>
+<td>Racine</td>
+<td>115</td>
+<td>100</td>
+<td>20</td>
+<td>Mapped "STATEWIDE HABITAT AREAS" to "Hoosier Creek Habitat  Area"</td>
+</tr>
+</tbody>
+</table>
+<h3 id="statewide-wildlife-habitate">Statewide Wildlife Habitate<a class="headerlink" href="#statewide-wildlife-habitate" title="Permanent link">&para;</a></h3>
+<p>In FFLIGHT, "STATEWIDE WILDLIFE HABITAT" (10217 and 10301) properties are now mapped to DNR properties
+"Brusky Wildlife Area" (10217) and "Statewide Wildlife Habitat - Dodge" (10301):</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>FFLIGHT</th>
+<th>Property</th>
+<th>County</th>
+<th>Acres for Hunting</th>
+<th>Stocking Levels</th>
+<th>Max Birds per Stocking</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10217</td>
+<td>STATEWIDE WILDLIFE HABITAT</td>
+<td>Brusky Wildlife Area</td>
+<td>Kewaunee</td>
+<td>70</td>
+<td>60</td>
+<td>60</td>
+<td>Stocked with birds from D.O.C. (Door County Fish Farm and Game Club);  Split out from "STATEWIDE WILDLIFE HABITAT"</td>
+</tr>
+<tr>
+<td>10301</td>
+<td>STATEWIDE WILDLIFE HABITAT</td>
+<td>Statewide Wildlife Habitat - Dodge</td>
+<td>Dodge</td>
+<td>230</td>
+<td>100</td>
+<td>20</td>
+<td>Sinissippi</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stream-bank-protection-program">Stream Bank Protection Program<a class="headerlink" href="#stream-bank-protection-program" title="Permanent link">&para;</a></h3>
+<p>In FFLIGHT, "Stream Bank Protection Program" (11423 and 11387) property is now mapped to
+"Sand Creek Fishery Area-Monroe Co." and "Honey Creek Stream Bank Protection Area":</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>FFLIGHT</th>
+<th>Property</th>
+<th>County</th>
+<th>Acres for Hunting</th>
+<th>Stocking Levels</th>
+<th>Max Birds per Stocking</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11423</td>
+<td>Stream Bank Protection Fee Program</td>
+<td>Sand Creek Fishery Area-Monroe Co.</td>
+<td>Monroe</td>
+<td>450</td>
+<td>220</td>
+<td>80</td>
+<td></td>
+</tr>
+<tr>
+<td>11387</td>
+<td>Stream Bank Protection Fee Program</td>
+<td>Honey Creek Stream Bank Protection Area</td>
+<td>Walworth</td>
+<td>490</td>
+<td>300</td>
+<td>60</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
