@@ -4,6 +4,8 @@
 
 See the [Changelog](CHANGELOG.md) for changes made over time.
 
+*New: [Google Maps Locations](https://maps.app.goo.gl/AGuoBWjCYz53Pvu76)*
+
 ## Overview
 
 This repository contains the data model for the Lake Country Hunt Club Pheasant Stocking Properties.
